@@ -12,6 +12,8 @@ import java.time.LocalDateTime;
 import java.util.*;
 
 /**
+ * bean工具
+ *
  * @author 我吃稀饭面
  * @date 2023/6/25 15:34
  */

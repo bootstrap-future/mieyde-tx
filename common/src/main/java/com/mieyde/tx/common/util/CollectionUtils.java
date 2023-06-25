@@ -7,6 +7,8 @@ import java.util.*;
 import java.util.function.Function;
 
 /**
+ * 集合工具
+ *
  * @author 我吃稀饭面
  * @date 2023/6/25 16:46
  */
