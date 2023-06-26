@@ -150,17 +150,17 @@ public class ConfigTools {
         return Base64.getDecoder().decode(base64Key);
     }
 
-    public static void main(String[] args) {
-        KeyPair keyPair = ConfigTools.getKeyPair();
-        String publicKey = ConfigTools.getPublicKey(keyPair);
-        String privateKey = ConfigTools.getPrivateKey(keyPair);
-        System.out.println("publicKey:"+publicKey);
-        System.out.println("privateKey:"+privateKey);
-
-        String data = "abadfasdfagasdfsadf";
-        String byte2Base64Private1 = ConfigTools.privateEncrypt(data, privateKey);
-        String byte2Base64Public2 = ConfigTools.publicEncrypt(data, publicKey);
-        System.out.println(byte2Base64Private1);
-        System.out.println(byte2Base64Public2);
-    }
+//    public static void main(String[] args) {
+//        KeyPair keyPair = ConfigTools.getKeyPair();
+//        String publicKey = ConfigTools.getPublicKey(keyPair);
+//        String privateKey = ConfigTools.getPrivateKey(keyPair);
+//        System.out.println("publicKey:"+publicKey);
+//        System.out.println("privateKey:"+privateKey);
+//
+//        String data = "abadfasdfagasdfsadf";
+//        String byte2Base64Private1 = ConfigTools.privateEncrypt(data, privateKey);
+//        String byte2Base64Public2 = ConfigTools.publicEncrypt(data, publicKey);
+//        System.out.println(byte2Base64Private1);
+//        System.out.println(byte2Base64Public2);
+//    }
 }
