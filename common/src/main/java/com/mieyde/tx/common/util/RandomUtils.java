@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.Set;
 
 /**
+ * 随机工具
+ *
  * @author 我吃稀饭面
  * @date 2023/6/26 11:56
  */
