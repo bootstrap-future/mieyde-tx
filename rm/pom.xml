@@ -6,7 +6,6 @@
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.mieyde.tx.rm</groupId>
     <artifactId>mieyde-tx-rm</artifactId>
     <packaging>jar</packaging>
     <name>mieyde-tx-rm ${project.version}</name>

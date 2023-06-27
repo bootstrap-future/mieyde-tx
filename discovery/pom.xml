@@ -6,7 +6,6 @@
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.mieyde.tx.discovery</groupId>
     <artifactId>mieyde-tx-discovery</artifactId>
     <packaging>pom</packaging>
     <name>mieyde-tx-discovery ${project.version}</name>
