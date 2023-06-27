@@ -26,6 +26,7 @@
     <hutool.version>5.8.0</hutool.version>
     <slf4j-api.version>1.7.36</slf4j-api.version>
     <commons-lang.version>2.6</commons-lang.version>
+    <netty-all.version>4.1.76.Final</netty-all.version>
   </properties>
 
   <dependencies>
@@ -74,6 +75,12 @@
         <groupId>commons-lang</groupId>
         <artifactId>commons-lang</artifactId>
         <version>${commons-lang.version}</version>
+      </dependency>
+      <!--netty包-->
+      <dependency>
+        <groupId>io.netty</groupId>
+        <artifactId>netty-all</artifactId>
+        <version>${netty-all.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

@@ -1,4 +1,4 @@
-package com.mieyde.tx.common;
+package com.mieyde.tx.common.constants;
 
 import java.nio.charset.Charset;
 

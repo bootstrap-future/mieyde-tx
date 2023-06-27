@@ -2,7 +2,7 @@ package com.mieyde.tx.common.util;
 
 import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.core.util.StrUtil;
-import com.mieyde.tx.common.Constants;
+import com.mieyde.tx.common.constants.Constants;
 import com.mieyde.tx.common.exception.ShouldNeverHappenException;
 
 import javax.sql.rowset.serial.SerialBlob;

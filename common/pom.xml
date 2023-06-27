@@ -11,4 +11,11 @@
     <packaging>jar</packaging>
     <name>mieyde-tx-common ${project.version}</name>
     <description>core for mieyde-tx built with Maven</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+        </dependency>
+    </dependencies>
 </project>
