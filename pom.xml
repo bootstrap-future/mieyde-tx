@@ -27,6 +27,8 @@
     <slf4j-api.version>1.7.36</slf4j-api.version>
     <commons-lang.version>2.6</commons-lang.version>
     <netty-all.version>4.1.76.Final</netty-all.version>
+    <config.version>1.2.1</config.version>
+    <snakeyaml.version>1.28</snakeyaml.version>
   </properties>
 
   <dependencies>
@@ -47,6 +49,14 @@
     <dependency>
       <groupId>commons-lang</groupId>
       <artifactId>commons-lang</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe</groupId>
+      <artifactId>config</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.yaml</groupId>
+      <artifactId>snakeyaml</artifactId>
     </dependency>
   </dependencies>
 
@@ -81,6 +91,18 @@
         <groupId>io.netty</groupId>
         <artifactId>netty-all</artifactId>
         <version>${netty-all.version}</version>
+      </dependency>
+      <!--typesafe包-->
+      <dependency>
+        <groupId>com.typesafe</groupId>
+        <artifactId>config</artifactId>
+        <version>${config.version}</version>
+      </dependency>
+      <!--yaml包-->
+      <dependency>
+        <groupId>org.yaml</groupId>
+        <artifactId>snakeyaml</artifactId>
+        <version>${snakeyaml.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
