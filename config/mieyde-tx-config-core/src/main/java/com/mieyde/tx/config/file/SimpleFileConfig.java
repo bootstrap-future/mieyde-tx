@@ -2,6 +2,7 @@ package com.mieyde.tx.config.file;
 
 import com.mieyde.tx.common.loader.LoadLevel;
 import com.mieyde.tx.common.loader.Scope;
+import com.mieyde.tx.common.util.FileUtils;
 import com.mieyde.tx.config.FileConfigFactory;
 import com.typesafe.config.Config;
 import com.typesafe.config.ConfigFactory;
@@ -17,7 +18,14 @@ public class SimpleFileConfig implements FileConfig{
 
     private Config config;
 
+    public SimpleFileConfig() {
+        this(FileUtils.load("file.config"));
+    }
+
     public SimpleFileConfig(File file) {
+        if (!file.exists() || file.isDirectory()){
+            throw new IllegalArgumentException("配置文件不存在,请指定配置文件路径");
+        }
         config = ConfigFactory.parseFile(file);
     }
 

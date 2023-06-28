@@ -152,7 +152,7 @@ public class CollectionUtils {
      * 向map中取值，如果不存在则执行function逻辑，存在则返回对应的值。如果map为null，则新建一个LinkedHashMap
      */
     public static <K,V> V computeIfAbsent(Map<K,V> map, K key, Function<? super K, ? extends V> mappingFunction){
-        if (isEmpty(map)){
+        if (ObjectUtils.isNull(map)){
             map = new LinkedHashMap<K,V>();
         }
         V value = map.get(key);

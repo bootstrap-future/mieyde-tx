@@ -3,6 +3,7 @@ package com.mieyde.tx.config.file;
 import cn.hutool.setting.yaml.YamlUtil;
 import com.mieyde.tx.common.loader.LoadLevel;
 import com.mieyde.tx.common.loader.Scope;
+import com.mieyde.tx.common.util.FileUtils;
 import com.mieyde.tx.common.util.ObjectUtils;
 import com.mieyde.tx.config.FileConfigFactory;
 
@@ -21,7 +22,14 @@ public class YamlFileConfig implements FileConfig{
 
     private Map configMap;
 
+    public YamlFileConfig() {
+        this(FileUtils.load("file.yaml"));
+    }
+
     public YamlFileConfig(File file) {
+        if (!file.exists() || file.isDirectory()){
+            throw new IllegalArgumentException("配置文件不存在,请指定配置文件路径");
+        }
         try (InputStream is = new FileInputStream(file)){
             configMap = YamlUtil.load(is,Map.class);
         } catch (IOException e) {
