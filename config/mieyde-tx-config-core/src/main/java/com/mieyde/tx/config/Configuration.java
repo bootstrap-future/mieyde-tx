@@ -12,6 +12,16 @@ public interface Configuration {
 
     Map<String,String> ENV_MAP = System.getenv();
 
+    String getConfig(String dataId,String defaultValue);
+
+    String getLatestConfig(String dataId,String defaultValue);
+
+    boolean putConfig(String dataId, String content);
+
+    boolean putConfigIfAbsent(String dataId, String content);
+
+    boolean removeConfig(String dataId);
+
     /**
      * 获取系统变量值
      */
