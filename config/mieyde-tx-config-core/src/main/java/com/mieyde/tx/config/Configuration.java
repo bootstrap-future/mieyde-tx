@@ -13,6 +13,7 @@ public interface Configuration {
     Map<String,String> ENV_MAP = System.getenv();
 
     String getConfig(String dataId,String defaultValue);
+    String getConfig(String dataId);
 
     String getLatestConfig(String dataId,String defaultValue);
 

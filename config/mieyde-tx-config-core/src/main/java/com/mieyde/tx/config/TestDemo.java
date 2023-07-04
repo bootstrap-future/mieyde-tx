@@ -27,20 +27,20 @@ public class TestDemo {
 //        SimpleFileConfig simpleFileConfig = new SimpleFileConfig(FileUtils.load("test.config"));
 //        System.out.println(simpleFileConfig.getContent("address"));
 
-        String config = "spring:\n" +
-                "  profiles:\n" +
-                "    active: prd\n" +
-                "server:\n" +
-                "  port: 8080\n" +
-                "  address: 127.0.0.1\n" +
-                "  ids:\n" +
-                "    - a1\n" +
-                "    - a2\n" +
-                "    - a3";
-        String config1 = "spring.profiles.active=prd\n" +
-                "server.address=127.0.0.1\n" +
-                "server.ids=a1,a2,a3\n" +
-                "server.test=123";
+//        String config = "spring:\n" +
+//                "  profiles:\n" +
+//                "    active: prd\n" +
+//                "server:\n" +
+//                "  port: 8080\n" +
+//                "  address: 127.0.0.1\n" +
+//                "  ids:\n" +
+//                "    - a1\n" +
+//                "    - a2\n" +
+//                "    - a3";
+//        String config1 = "spring.profiles.active=prd\n" +
+//                "server.address=127.0.0.1\n" +
+//                "server.ids=a1,a2,a3\n" +
+//                "server.test=123";
 //        Properties properties = new ProcessorYaml().processor(config);
 //        System.out.println(properties);
 //        Properties properties1 = new ProcessorProperties().processor(config1);
@@ -62,14 +62,20 @@ public class TestDemo {
 //        Properties properties = EnhancedServiceLoader.load(Processor.class, "properties").processor(config1);
 //        System.out.println(properties);
 
-        Map<String, String> envMap = System.getenv();
-        for (Map.Entry<String, String> entry : envMap.entrySet()) {
-            System.out.println(entry.getKey() + "--->" + entry.getValue());
-        }
-        System.out.println("================================================");
-        Properties properties = System.getProperties();
-        for (Map.Entry<Object, Object> entry : properties.entrySet()) {
-            System.out.println(entry.getKey() + "--->" + entry.getValue());
-        }
+//        Map<String, String> envMap = System.getenv();
+//        for (Map.Entry<String, String> entry : envMap.entrySet()) {
+//            System.out.println(entry.getKey() + "--->" + entry.getValue());
+//        }
+//        System.out.println("================================================");
+//        Properties properties = System.getProperties();
+//        for (Map.Entry<Object, Object> entry : properties.entrySet()) {
+//            System.out.println(entry.getKey() + "--->" + entry.getValue());
+//        }
+
+        Configuration configuration = new FileConfiguration("registry.conf");
+        System.out.println(configuration.getLatestConfig("registry.type", "none"));
+        System.out.println(configuration.getConfig("registry.type", "none"));
+        System.out.println(configuration.getConfig("registry.type"));
+        System.out.println(configuration.getConfig("registry.nacos.application"));
     }
 }

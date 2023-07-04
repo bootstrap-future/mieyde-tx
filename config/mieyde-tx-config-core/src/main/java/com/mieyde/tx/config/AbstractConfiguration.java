@@ -17,5 +17,10 @@ public abstract class AbstractConfiguration implements Configuration{
         return getLatestConfig(dataId,defaultValue);
     }
 
+    @Override
+    public String getConfig(String dataId) {
+        return getConfig(dataId,null);
+    }
+
     public abstract String getTypeName();
 }
