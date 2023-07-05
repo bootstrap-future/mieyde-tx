@@ -18,8 +18,8 @@ public final class ConfigurationFactory {
 
     private static final Logger log = LoggerFactory.getLogger(ConfigurationFactory.class);
 
-    private static final String SYSTEM_PROPERTY_SEATA_CONFIG_NAME = "seata.config.name";
-    private static final String ENV_SEATA_CONFIG_NAME = "SEATA_CONFIG_NAME";
+    private static final String SYSTEM_PROPERTY_SEATA_CONFIG_NAME = "mieyde.config.name";
+    private static final String ENV_SEATA_CONFIG_NAME = "MIEYDE_CONFIG_NAME";
     private static final String REGISTRY_CONF_DEFAULT = "registry.conf";
 
     public static Configuration CURRENT_FILE_INSTANCE;
