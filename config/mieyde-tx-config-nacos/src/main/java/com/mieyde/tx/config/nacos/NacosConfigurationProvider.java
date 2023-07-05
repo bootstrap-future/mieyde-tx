@@ -17,6 +17,6 @@ public class NacosConfigurationProvider implements ConfigurationProvider {
      */
     @Override
     public Configuration provide() {
-        return null;
+        return NacosConfiguration.getInstance();
     }
 }

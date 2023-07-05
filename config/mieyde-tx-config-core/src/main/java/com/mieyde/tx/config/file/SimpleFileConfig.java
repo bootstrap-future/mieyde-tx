@@ -19,7 +19,7 @@ public class SimpleFileConfig implements FileConfig{
     private Config config;
 
     public SimpleFileConfig() {
-        this(FileUtils.load("file.config"));
+        this(FileUtils.load("registry.conf"));
     }
 
     public SimpleFileConfig(File file) {

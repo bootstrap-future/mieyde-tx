@@ -20,10 +20,7 @@ public final class ConfigurationFactory {
 
     private static final String SYSTEM_PROPERTY_SEATA_CONFIG_NAME = "seata.config.name";
     private static final String ENV_SEATA_CONFIG_NAME = "SEATA_CONFIG_NAME";
-    private static final String REGISTRY_CONF_DEFAULT = "registry";
-
-    public static final String ENV_PROPERTY_KEY = "seataEnv";
-    private static final String ENV_SYSTEM_KEY = "SEATA_ENV";
+    private static final String REGISTRY_CONF_DEFAULT = "registry.conf";
 
     public static Configuration CURRENT_FILE_INSTANCE;
 
@@ -40,12 +37,7 @@ public final class ConfigurationFactory {
             seataConfigName = REGISTRY_CONF_DEFAULT;
         }
 
-        String envValue = System.getProperty(ENV_PROPERTY_KEY);
-        if (StringUtls.isBlank(envValue)){
-            envValue = System.getenv(ENV_SYSTEM_KEY);
-        }
-
-        Configuration fileConfiguration = StringUtls.isBlank(envValue) ? new FileConfiguration(seataConfigName) : new FileConfiguration(seataConfigName + "-" + envValue);
+        Configuration fileConfiguration = new FileConfiguration(seataConfigName);
 
         Configuration extConfiguration = null;
         try {

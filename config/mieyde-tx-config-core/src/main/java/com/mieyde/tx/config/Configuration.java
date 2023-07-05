@@ -1,5 +1,6 @@
 package com.mieyde.tx.config;
 
+import com.mieyde.tx.common.ConfigurationKeys;
 import com.mieyde.tx.common.util.StringUtls;
 
 import java.util.Map;
@@ -39,5 +40,9 @@ public interface Configuration {
             return config;
         }
         return System.getProperty(dataId);
+    }
+
+    default String getDataTypeKey() {
+        return String.join(ConfigurationKeys.FILE_CONFIG_SPLIT_CHAR, ConfigurationKeys.FILE_ROOT_CONFIG, ConfigurationKeys.DATA_TYPE);
     }
 }

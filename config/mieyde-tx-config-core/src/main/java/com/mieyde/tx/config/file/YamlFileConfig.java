@@ -23,7 +23,7 @@ public class YamlFileConfig implements FileConfig{
     private Map configMap;
 
     public YamlFileConfig() {
-        this(FileUtils.load("file.yaml"));
+        this(FileUtils.load("registry.yaml"));
     }
 
     public YamlFileConfig(File file) {

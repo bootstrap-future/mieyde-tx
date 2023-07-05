@@ -1,0 +1,17 @@
+registry:
+  type: nacos
+  nacos:
+    application: mieyde-server
+    serverAddr: localhost
+    namespace: ""
+    cluster: default
+  file:
+    name: file.conf
+config:
+  type: file
+  nacos:
+    serverAddr: localhost
+    namespace: ""
+    group: "MIEYDE_TX_GROUP"
+  file:
+    name: file.conf

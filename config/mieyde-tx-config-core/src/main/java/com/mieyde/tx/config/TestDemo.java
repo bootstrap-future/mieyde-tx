@@ -1,19 +1,7 @@
 package com.mieyde.tx.config;
 
-import cn.hutool.setting.yaml.YamlUtil;
-import com.mieyde.tx.common.loader.EnhancedServiceLoader;
 import com.mieyde.tx.common.util.FileUtils;
-import com.mieyde.tx.config.file.FileConfig;
-import com.mieyde.tx.config.file.SimpleFileConfig;
-import com.mieyde.tx.config.processor.Processor;
-import com.mieyde.tx.config.processor.ProcessorProperties;
-import com.mieyde.tx.config.processor.ProcessorYaml;
-import org.yaml.snakeyaml.Yaml;
-
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.Map;
-import java.util.Properties;
+import com.mieyde.tx.config.file.YamlFileConfig;
 
 /**
  * @author 我吃稀饭面
@@ -21,8 +9,8 @@ import java.util.Properties;
  */
 public class TestDemo {
     public static void main(String[] args) throws Exception {
-//        YamlFileConfig yamlFileConfig = new YamlFileConfig(FileUtils.load("test.yaml"));
-//        System.out.println(yamlFileConfig.getContent("server"));
+        YamlFileConfig yamlFileConfig = new YamlFileConfig(FileUtils.load("registry.yaml"));
+        System.out.println(yamlFileConfig.getContent("server"));
 
 //        SimpleFileConfig simpleFileConfig = new SimpleFileConfig(FileUtils.load("test.config"));
 //        System.out.println(simpleFileConfig.getContent("address"));
@@ -47,7 +35,7 @@ public class TestDemo {
 //        System.out.println(properties1);
 
 
-//        Object[] tempArgsYaml = new Object[]{FileUtils.load("test.yaml")};
+//        Object[] tempArgsYaml = new Object[]{FileUtils.load("registry.yaml")};
 //        Object[] tempArgsConfig = new Object[]{FileUtils.load("test.config")};
 //        Object[] tempArgsConfig1 = new Object[]{FileUtils.load("C:\\Users\\Administrator\\Desktop\\test1.config")};
 //        String content = EnhancedServiceLoader.load(FileConfig.class, FileConfigFactory.DEFAULT_TYPE,tempArgsConfig1).getContent("fullname");
@@ -72,10 +60,10 @@ public class TestDemo {
 //            System.out.println(entry.getKey() + "--->" + entry.getValue());
 //        }
 
-        Configuration configuration = new FileConfiguration("registry.conf");
-        System.out.println(configuration.getLatestConfig("registry.type", "none"));
-        System.out.println(configuration.getConfig("registry.type", "none"));
-        System.out.println(configuration.getConfig("registry.type"));
-        System.out.println(configuration.getConfig("registry.nacos.application"));
+//        Configuration configuration = new FileConfiguration("registry.conf");
+//        System.out.println(configuration.getLatestConfig("registry.type", "none"));
+//        System.out.println(configuration.getConfig("registry.type", "none"));
+//        System.out.println(configuration.getConfig("registry.type"));
+//        System.out.println(configuration.getConfig("registry.nacos.application"));
     }
 }
