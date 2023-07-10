@@ -30,6 +30,7 @@
     <config.version>1.2.1</config.version>
     <snakeyaml.version>1.28</snakeyaml.version>
     <nacos-client.version>1.4.2</nacos-client.version>
+    <json.version>1.2.51</json.version>
   </properties>
 
   <dependencies>
@@ -58,6 +59,10 @@
     <dependency>
       <groupId>org.yaml</groupId>
       <artifactId>snakeyaml</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
     </dependency>
   </dependencies>
 
@@ -110,6 +115,12 @@
         <groupId>com.alibaba.nacos</groupId>
         <artifactId>nacos-client</artifactId>
         <version>${nacos-client.version}</version>
+      </dependency>
+      <!--json包-->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>${json.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

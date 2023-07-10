@@ -10,4 +10,5 @@ public interface ConfigurationKeys {
     String FILE_ROOT_TYPE = "type";
     String DATA_TYPE = "dataType";
     String DEFAULT_DATA_TYPE = "properties";
+    String FILE_ROOT_REGISTRY = "registry";
 }

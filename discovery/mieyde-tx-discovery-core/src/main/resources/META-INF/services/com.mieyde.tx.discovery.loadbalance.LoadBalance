@@ -1,0 +1,5 @@
+com.mieyde.tx.discovery.loadbalance.XIDLoadBalance
+com.mieyde.tx.discovery.loadbalance.RandomLoadBalance
+com.mieyde.tx.discovery.loadbalance.RoundRobinLoadBalance
+com.mieyde.tx.discovery.loadbalance.LeastActiveLoadBalance
+com.mieyde.tx.discovery.loadbalance.ConsistentHashLoadBalance

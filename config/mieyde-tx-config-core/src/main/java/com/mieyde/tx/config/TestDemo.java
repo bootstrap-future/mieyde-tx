@@ -1,7 +1,12 @@
 package com.mieyde.tx.config;
 
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.mieyde.tx.common.util.FileUtils;
 import com.mieyde.tx.config.file.YamlFileConfig;
+
+import java.io.File;
+import java.util.Arrays;
 
 /**
  * @author 我吃稀饭面
@@ -9,8 +14,8 @@ import com.mieyde.tx.config.file.YamlFileConfig;
  */
 public class TestDemo {
     public static void main(String[] args) throws Exception {
-        YamlFileConfig yamlFileConfig = new YamlFileConfig(FileUtils.load("registry.yaml"));
-        System.out.println(yamlFileConfig.getContent("server"));
+//        YamlFileConfig yamlFileConfig = new YamlFileConfig(FileUtils.load("registry.yaml"));
+//        System.out.println(yamlFileConfig.getContent("server"));
 
 //        SimpleFileConfig simpleFileConfig = new SimpleFileConfig(FileUtils.load("test.config"));
 //        System.out.println(simpleFileConfig.getContent("address"));
@@ -65,5 +70,58 @@ public class TestDemo {
 //        System.out.println(configuration.getConfig("registry.type", "none"));
 //        System.out.println(configuration.getConfig("registry.type"));
 //        System.out.println(configuration.getConfig("registry.nacos.application"));
+
+
+    }
+
+    public static void mianyangData(){
+        String content = FileUtils.getContent(FileUtils.load("test.file"));
+        String[] split = content.split("\n");
+        JSONArray jsonArray = new JSONArray();
+        for (String s : split) {
+            jsonArray.add(toJson(s));
+        }
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("data",jsonArray);
+        System.out.println(jsonObject.toJSONString());
+    }
+
+    public static JSONObject toJson(String data){
+        JSONObject jsonObject = new JSONObject();
+        String[] record = data.split(",");
+        for (int i = 0; i < record.length; i++) {
+
+            String name = record[0];
+            String province = record[1];
+            String provinceCode = record[6].substring(0,2);
+            String city = record[2];
+            String cityCode = record[6].substring(0,4);
+            String area = record[3];
+            String areaCode = record[6].substring(0,5);
+            String street = record[4];
+            String streetCode = record[6].substring(0,9);
+            String community = record[5];
+            String communityCode = record[6];
+
+            jsonObject.put("name",name);
+            jsonObject.put("province",province);
+            jsonObject.put("provinceCode",provinceCode);
+            jsonObject.put("city",city);
+            jsonObject.put("cityCode",cityCode);
+            jsonObject.put("area",area);
+            jsonObject.put("areaCode",areaCode);
+            jsonObject.put("street",street);
+            jsonObject.put("streetCode",streetCode);
+            jsonObject.put("community",community);
+            jsonObject.put("communityCode",communityCode);
+
+            if (record[7].split("-").length <= 0){
+                throw new RuntimeException("关联项目不存在");
+            }
+            JSONArray jsonArray = new JSONArray();
+            jsonArray.addAll(Arrays.asList(record[7].split("-")));
+            jsonObject.put("projectIdList",jsonArray);
+        }
+        return jsonObject;
     }
 }
