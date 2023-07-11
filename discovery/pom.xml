@@ -12,5 +12,6 @@
     <description>discovery top parent for mieyde-tx built with Maven</description>
     <modules>
         <module>mieyde-tx-discovery-core</module>
+        <module>mieyde-tx-discovery-nacos</module>
     </modules>
 </project>
