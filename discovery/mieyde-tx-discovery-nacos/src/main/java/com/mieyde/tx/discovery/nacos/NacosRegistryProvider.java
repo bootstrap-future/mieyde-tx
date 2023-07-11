@@ -12,6 +12,6 @@ import com.mieyde.tx.discovery.registry.RegistryService;
 public class NacosRegistryProvider implements RegistryProvider {
     @Override
     public RegistryService provide() {
-        return null;
+        return NacosRegistryServiceImpl.getInstance();
     }
 }
