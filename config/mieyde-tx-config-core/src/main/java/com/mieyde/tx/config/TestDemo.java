@@ -7,11 +7,14 @@ import com.mieyde.tx.common.util.FileUtils;
 import com.mieyde.tx.config.file.YamlFileConfig;
 
 import java.io.File;
+import java.sql.Driver;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
+import java.util.*;
+import java.util.function.Supplier;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Stream;
 
 /**
  * @author 我吃稀饭面
@@ -76,7 +79,23 @@ public class TestDemo {
 //        System.out.println(configuration.getConfig("registry.type"));
 //        System.out.println(configuration.getConfig("registry.nacos.application"));
 
-        mianyangData();
+//        mianyangData();
+
+        //Java SPI
+//        ServiceLoader<Driver> load = ServiceLoader.load(Driver.class);
+//        Iterator<Driver> iterator = load.iterator();
+//        while (iterator.hasNext()){
+//            Driver next = iterator.next();
+//            System.out.println(next);
+//        }
+
+        Stream<String> stream = Stream.of("aaa", "bbb", "ddd", "ccc", "fff");
+        Optional<String> first = stream.findFirst();
+        System.out.println(first.orElseGet(() -> String.valueOf(new Random().nextInt())));
+
+//        Supplier<Double> supplier = Math::random;
+//        Supplier<Double> supplier1 = ()->new Random().nextDouble();
+//        System.out.println(supplier1.get());
     }
 
     public static void mianyangData(){
