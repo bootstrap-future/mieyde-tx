@@ -2,11 +2,16 @@ package com.mieyde.tx.config;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.mieyde.tx.common.util.CollectionUtils;
 import com.mieyde.tx.common.util.FileUtils;
 import com.mieyde.tx.config.file.YamlFileConfig;
 
 import java.io.File;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * @author 我吃稀饭面
@@ -71,19 +76,24 @@ public class TestDemo {
 //        System.out.println(configuration.getConfig("registry.type"));
 //        System.out.println(configuration.getConfig("registry.nacos.application"));
 
-
+        mianyangData();
     }
 
     public static void mianyangData(){
-        String content = FileUtils.getContent(FileUtils.load("test.file"));
+        StringBuffer xmids = new StringBuffer();
+        String content = FileUtils.getContent(FileUtils.load("t3.file"));
         String[] split = content.split("\n");
         JSONArray jsonArray = new JSONArray();
         for (String s : split) {
-            jsonArray.add(toJson(s));
+            JSONObject jsonObject = toJson(s);
+            JSONArray projectIdList = jsonObject.getJSONArray("projectIdList");
+            xmids.append(CollectionUtils.join(projectIdList,",")).append(",");
+            jsonArray.add(jsonObject);
         }
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("data",jsonArray);
+        jsonObject.put("datas",jsonArray);
         System.out.println(jsonObject.toJSONString());
+        System.out.println(xmids.toString());
     }
 
     public static JSONObject toJson(String data){
@@ -97,7 +107,7 @@ public class TestDemo {
             String city = record[2];
             String cityCode = record[6].substring(0,4);
             String area = record[3];
-            String areaCode = record[6].substring(0,5);
+            String areaCode = record[6].substring(0,6);
             String street = record[4];
             String streetCode = record[6].substring(0,9);
             String community = record[5];
