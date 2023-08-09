@@ -113,11 +113,7 @@ public class BeanUtils {
                 }
             }
             T t = clazz.getConstructor().newInstance();
-            if (CollectionUtils.isNotEmpty(ignorePropertiesData)){
-                BeanUtil.copyProperties(source,t,ignorePropertiesData.toArray(new String[ignorePropertiesData.size()]));
-            }else {
-                BeanUtil.copyProperties(source,t);
-            }
+            BeanUtil.copyProperties(source,t,ignorePropertiesData.toArray(new String[ignorePropertiesData.size()]));
             return t;
         } catch (InstantiationException | IllegalAccessException | NoSuchMethodException | InvocationTargetException e) {
             throw new RuntimeException("对象copy出错");
