@@ -32,7 +32,7 @@ public class DateUtils {
      * 字符串转date
      */
     public static Date parseDate(String dateStr){
-        if (StringUtls.isBlank(dateStr)){
+        if (StringUtils.isBlank(dateStr)){
             return null;
         }
         return new Date(dateStr);
@@ -103,7 +103,7 @@ public class DateUtils {
      * 如：2023-06-26T09:16:41.513
      */
     public static LocalDateTime parseLocalDateTime(String dateStr){
-        if (StringUtls.isBlank(dateStr)){
+        if (StringUtils.isBlank(dateStr)){
             return null;
         }
         return LocalDateTime.parse(dateStr);

@@ -1,7 +1,6 @@
 package com.mieyde.tx.common.util;
 
 import cn.hutool.core.util.StrUtil;
-import org.apache.commons.lang.StringUtils;
 
 /**
  * 字符串工具
@@ -9,7 +8,7 @@ import org.apache.commons.lang.StringUtils;
  * @author 我吃稀饭面
  * @date 2023/6/25 16:48
  */
-public class StringUtls {
+public class StringUtils {
 
     public static boolean isBlank(String str){
         return StrUtil.isBlank(str);

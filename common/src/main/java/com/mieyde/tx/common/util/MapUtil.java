@@ -73,7 +73,7 @@ public class MapUtil {
     private static void buildFlattenedMap(Map<String, Object> result, Map<String, Object> source, String path) {
         for (Map.Entry<String, Object> entry : source.entrySet()) {
             String key = entry.getKey();
-            if (StringUtls.isNotBlank(path)) {
+            if (StringUtils.isNotBlank(path)) {
                 if (key.startsWith("[")) {
                     key = path + key;
                 } else {

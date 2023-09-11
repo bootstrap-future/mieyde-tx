@@ -3,7 +3,7 @@ package com.mieyde.tx.config;
 import com.mieyde.tx.common.thread.NamedThreadFactory;
 import com.mieyde.tx.common.util.FileUtils;
 import com.mieyde.tx.common.util.ObjectUtils;
-import com.mieyde.tx.common.util.StringUtls;
+import com.mieyde.tx.common.util.StringUtils;
 import com.mieyde.tx.config.file.FileConfig;
 
 import java.io.File;
@@ -55,7 +55,7 @@ public class FileConfiguration extends AbstractConfiguration{
     @Override
     public String getLatestConfig(String dataId, String defaultValue) {
         String value = getConfigBySystem(dataId);
-        if (StringUtls.isNotBlank(value)){
+        if (StringUtils.isNotBlank(value)){
             return value;
         }
 

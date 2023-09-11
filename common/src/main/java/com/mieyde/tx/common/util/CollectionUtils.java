@@ -97,10 +97,10 @@ public class CollectionUtils {
         if (isEmpty(map)){
             return "";
         }
-        if (StringUtls.isBlank(pairSplit)){
+        if (StringUtils.isBlank(pairSplit)){
             throw new IllegalArgumentException("map split is not null");
         }
-        if (StringUtls.isBlank(kvSplit)){
+        if (StringUtils.isBlank(kvSplit)){
             throw new IllegalArgumentException("map kvSplit is not null");
         }
         List<String> list = new ArrayList<>();
@@ -122,13 +122,13 @@ public class CollectionUtils {
      */
     public static Map<String,String> decodeMap(String data,String kvSplit,String pairSplit){
         Map<String, String> map = new LinkedHashMap<>();
-        if (StringUtls.isBlank(data)) {
+        if (StringUtils.isBlank(data)) {
             return map;
         }
-        if (StringUtls.isBlank(pairSplit)){
+        if (StringUtils.isBlank(pairSplit)){
             throw new IllegalArgumentException("map split is not null");
         }
-        if (StringUtls.isBlank(kvSplit)){
+        if (StringUtils.isBlank(kvSplit)){
             throw new IllegalArgumentException("map kvSplit is not null");
         }
         String[] kvPairs = data.split(pairSplit);
@@ -136,7 +136,7 @@ public class CollectionUtils {
             return map;
         }
         for (String kvPair : kvPairs) {
-            if (StringUtls.isBlank(kvPair)) {
+            if (StringUtils.isBlank(kvPair)) {
                 continue;
             }
             String[] kvs = kvPair.split(kvSplit);

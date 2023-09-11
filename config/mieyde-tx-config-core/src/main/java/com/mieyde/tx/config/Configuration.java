@@ -1,7 +1,7 @@
 package com.mieyde.tx.config;
 
 import com.mieyde.tx.common.ConfigurationKeys;
-import com.mieyde.tx.common.util.StringUtls;
+import com.mieyde.tx.common.util.StringUtils;
 
 import java.util.Map;
 
@@ -28,15 +28,15 @@ public interface Configuration {
      * 获取系统变量值
      */
     default String getConfigBySystem(String dataId){
-        if (StringUtls.isBlank(dataId)){
+        if (StringUtils.isBlank(dataId)){
             return null;
         }
         String config = ENV_MAP.get(dataId);
-        if (StringUtls.isNotBlank(config)){
+        if (StringUtils.isNotBlank(config)){
             return config;
         }
         config = ENV_MAP.get(dataId.toUpperCase().replace(".","_"));
-        if (StringUtls.isNotBlank(config)){
+        if (StringUtils.isNotBlank(config)){
             return config;
         }
         return System.getProperty(dataId);

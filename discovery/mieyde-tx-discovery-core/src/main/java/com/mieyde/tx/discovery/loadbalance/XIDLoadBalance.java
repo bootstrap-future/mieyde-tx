@@ -3,7 +3,7 @@ package com.mieyde.tx.discovery.loadbalance;
 import com.mieyde.tx.common.loader.EnhancedServiceLoader;
 import com.mieyde.tx.common.loader.LoadLevel;
 import com.mieyde.tx.common.util.ObjectUtils;
-import com.mieyde.tx.common.util.StringUtls;
+import com.mieyde.tx.common.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,7 +25,7 @@ public class XIDLoadBalance implements LoadBalance{
 
     @Override
     public <T> T select(List<T> invokers, String xid) throws Exception {
-        if (StringUtls.isNotBlank(xid) && xid.contains(SPLIT)){
+        if (StringUtils.isNotBlank(xid) && xid.contains(SPLIT)){
             String serverAddress = xid.substring(0, xid.lastIndexOf(SPLIT));
             int index = serverAddress.lastIndexOf(SPLIT);
             int port = Integer.parseInt(serverAddress.substring(index + 1));

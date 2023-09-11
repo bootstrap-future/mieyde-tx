@@ -1,7 +1,7 @@
 package com.mieyde.tx.common.thread;
 
 import com.mieyde.tx.common.util.CollectionUtils;
-import com.mieyde.tx.common.util.StringUtls;
+import com.mieyde.tx.common.util.StringUtils;
 import io.netty.util.concurrent.FastThreadLocalThread;
 
 import java.util.Map;
@@ -25,7 +25,7 @@ public class NamedThreadFactory implements ThreadFactory {
     public NamedThreadFactory(String prefix, int totalSize, boolean makeDaemons) {
         int prefixCounter = CollectionUtils.computeIfAbsent(PREFIX_COUNTER, prefix, key -> new AtomicInteger(0)).incrementAndGet();
         this.group = Thread.currentThread().getThreadGroup();
-        this.prefix = StringUtls.join("_",prefix,prefixCounter);
+        this.prefix = StringUtils.join("_",prefix,prefixCounter);
         this.totalSize = totalSize;
         this.makeDaemons = makeDaemons;
     }
@@ -40,9 +40,9 @@ public class NamedThreadFactory implements ThreadFactory {
 
     @Override
     public Thread newThread(Runnable r) {
-        String name = StringUtls.join("_",prefix,counter.incrementAndGet());
+        String name = StringUtils.join("_",prefix,counter.incrementAndGet());
         if (totalSize > 1){
-            name = StringUtls.join("_",name,totalSize);
+            name = StringUtils.join("_",name,totalSize);
         }
 
         Thread thread = new FastThreadLocalThread(group, r, name);

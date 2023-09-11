@@ -9,7 +9,7 @@ import com.alibaba.nacos.api.naming.pojo.Service;
 import com.mieyde.tx.common.ConfigurationKeys;
 import com.mieyde.tx.common.util.CollectionUtils;
 import com.mieyde.tx.common.util.ObjectUtils;
-import com.mieyde.tx.common.util.StringUtls;
+import com.mieyde.tx.common.util.StringUtils;
 import com.mieyde.tx.config.Configuration;
 import com.mieyde.tx.config.ConfigurationFactory;
 import com.mieyde.tx.discovery.registry.RegistryService;
@@ -61,7 +61,7 @@ public class NacosRegistryServiceImpl implements RegistryService {
 
     private NacosRegistryServiceImpl() {
         String configForNacosSLB = FILE_CONFIG.getConfig(getNacosUrlPatternOfSLB());
-        Pattern patternOfNacosRegistryForSLB = StringUtls.isBlank(configForNacosSLB) ? DEFAULT_SLB_REGISTRY_PATTERN : Pattern.compile(configForNacosSLB);
+        Pattern patternOfNacosRegistryForSLB = StringUtils.isBlank(configForNacosSLB) ? DEFAULT_SLB_REGISTRY_PATTERN : Pattern.compile(configForNacosSLB);
 
         this.useSLBWay = patternOfNacosRegistryForSLB.matcher(getNamingProperties().getProperty(PRO_SERVER_ADDR_KEY)).matches();
     }
@@ -122,7 +122,7 @@ public class NacosRegistryServiceImpl implements RegistryService {
     @Override
     public List<InetSocketAddress> lookup(String key) throws Exception {
         String clusterName = getServiceGroup(key);
-        if (StringUtls.isBlank(clusterName)){
+        if (StringUtils.isBlank(clusterName)){
             return null;
         }
         if (useSLBWay){
@@ -130,7 +130,7 @@ public class NacosRegistryServiceImpl implements RegistryService {
                 Service service = getNamingMaintainInstance().queryService(DEFAULT_APPLICATION, clusterName);
                 String pubnetIp = service.getMetadata().get(PUBLIC_NAMING_SERVICE_META_IP_KEY);
                 String pubnetPort = service.getMetadata().get(PUBLIC_NAMING_SERVICE_META_PORT_KEY);
-                if (StringUtls.isBlank(pubnetIp) || StringUtls.isBlank(pubnetPort)) {
+                if (StringUtils.isBlank(pubnetIp) || StringUtils.isBlank(pubnetPort)) {
                     throw new Exception("cannot find service address from nacos naming mata-data");
                 }
                 InetSocketAddress publicAddress = new InetSocketAddress(pubnetIp, Integer.valueOf(pubnetPort));
@@ -167,36 +167,36 @@ public class NacosRegistryServiceImpl implements RegistryService {
 
     private static Properties getNamingProperties(){
         Properties properties = new Properties();
-        if (StringUtls.isNotBlank(System.getProperty(PRO_SERVER_ADDR_KEY))){
+        if (StringUtils.isNotBlank(System.getProperty(PRO_SERVER_ADDR_KEY))){
             properties.setProperty(PRO_SERVER_ADDR_KEY,System.getProperty(PRO_SERVER_ADDR_KEY));
         }else {
             String address = FILE_CONFIG.getConfig(getNacosAddrFileKey());
-            if (StringUtls.isNotBlank(address)){
+            if (StringUtils.isNotBlank(address)){
                 properties.setProperty(PRO_SERVER_ADDR_KEY,address);
             }
         }
 
-        if (StringUtls.isNotBlank(System.getProperty(PRO_NAMESPACE_KEY))){
+        if (StringUtils.isNotBlank(System.getProperty(PRO_NAMESPACE_KEY))){
             properties.setProperty(PRO_NAMESPACE_KEY,System.getProperty(PRO_NAMESPACE_KEY));
         }else {
             String namespace = FILE_CONFIG.getConfig(getNacosNameSpaceFileKey());
-            if (StringUtls.isNotBlank(namespace)){
+            if (StringUtils.isNotBlank(namespace)){
                 properties.setProperty(PRO_NAMESPACE_KEY,namespace);
             }
         }
 
-        String userName = StringUtls.isNotBlank(System.getProperty(USER_NAME)) ? System.getProperty(USER_NAME) : FILE_CONFIG.getConfig(getNacosUserName());
-        if (StringUtls.isNotBlank(userName)){
-            String password = StringUtls.isNotBlank(System.getProperty(PASSWORD)) ? System.getProperty(PASSWORD) : FILE_CONFIG.getConfig(getNacosPassword());
-            if (StringUtls.isNotBlank(password)){
+        String userName = StringUtils.isNotBlank(System.getProperty(USER_NAME)) ? System.getProperty(USER_NAME) : FILE_CONFIG.getConfig(getNacosUserName());
+        if (StringUtils.isNotBlank(userName)){
+            String password = StringUtils.isNotBlank(System.getProperty(PASSWORD)) ? System.getProperty(PASSWORD) : FILE_CONFIG.getConfig(getNacosPassword());
+            if (StringUtils.isNotBlank(password)){
                 properties.setProperty(USER_NAME, userName);
                 properties.setProperty(PASSWORD, password);
             }
         }else {
-            String accessKey = StringUtls.isNotBlank(System.getProperty(ACCESS_KEY)) ? System.getProperty(ACCESS_KEY) : FILE_CONFIG.getConfig(getNacosAccessKey());
-            if (StringUtls.isNotBlank(accessKey)){
-                String secretKey = StringUtls.isNotBlank(System.getProperty(SECRET_KEY)) ? System.getProperty(SECRET_KEY) : FILE_CONFIG.getConfig(getNacosSecretKey());
-                if (StringUtls.isNotBlank(secretKey)){
+            String accessKey = StringUtils.isNotBlank(System.getProperty(ACCESS_KEY)) ? System.getProperty(ACCESS_KEY) : FILE_CONFIG.getConfig(getNacosAccessKey());
+            if (StringUtils.isNotBlank(accessKey)){
+                String secretKey = StringUtils.isNotBlank(System.getProperty(SECRET_KEY)) ? System.getProperty(SECRET_KEY) : FILE_CONFIG.getConfig(getNacosSecretKey());
+                if (StringUtils.isNotBlank(secretKey)){
                     properties.setProperty(ACCESS_KEY, accessKey);
                     properties.setProperty(SECRET_KEY, secretKey);
                 }

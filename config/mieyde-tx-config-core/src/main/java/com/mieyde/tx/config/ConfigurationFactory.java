@@ -4,7 +4,7 @@ import com.mieyde.tx.common.ConfigurationKeys;
 import com.mieyde.tx.common.exception.NotSupportYetException;
 import com.mieyde.tx.common.loader.EnhancedServiceLoader;
 import com.mieyde.tx.common.util.ObjectUtils;
-import com.mieyde.tx.common.util.StringUtls;
+import com.mieyde.tx.common.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,10 +30,10 @@ public final class ConfigurationFactory {
 
     private static void load(){
         String seataConfigName = System.getProperty(SYSTEM_PROPERTY_SEATA_CONFIG_NAME);
-        if (StringUtls.isBlank(seataConfigName)){
+        if (StringUtils.isBlank(seataConfigName)){
             seataConfigName = System.getenv(ENV_SEATA_CONFIG_NAME);
         }
-        if (StringUtls.isBlank(seataConfigName)){
+        if (StringUtils.isBlank(seataConfigName)){
             seataConfigName = REGISTRY_CONF_DEFAULT;
         }
 
@@ -70,7 +70,7 @@ public final class ConfigurationFactory {
     private static Configuration buildConfiguration() {
         String configTypeName = CURRENT_FILE_INSTANCE.getConfig(ConfigurationKeys.FILE_ROOT_CONFIG + ConfigurationKeys.FILE_CONFIG_SPLIT_CHAR + ConfigurationKeys.FILE_ROOT_TYPE);
         log.info("use configuration center type: {}", configTypeName);
-        if (StringUtls.isBlank(configTypeName)){
+        if (StringUtils.isBlank(configTypeName)){
             throw new NotSupportYetException("config type can not be null");
         }
         ConfigType configType = ConfigType.convertType(configTypeName);
@@ -79,7 +79,7 @@ public final class ConfigurationFactory {
         Configuration configuration = null;
         if (ObjectUtils.equals(configType,ConfigType.File)){
             //配置的是文件方式加载配置
-            String pathDataId = StringUtls.join(ConfigurationKeys.FILE_CONFIG_SPLIT_CHAR, ConfigurationKeys.FILE_ROOT_CONFIG, FILE_TYPE, NAME_KEY);
+            String pathDataId = StringUtils.join(ConfigurationKeys.FILE_CONFIG_SPLIT_CHAR, ConfigurationKeys.FILE_ROOT_CONFIG, FILE_TYPE, NAME_KEY);
             String name = CURRENT_FILE_INSTANCE.getConfig(pathDataId);
             configuration = new FileConfiguration(name);
             try {

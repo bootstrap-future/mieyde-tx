@@ -6,7 +6,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.mieyde.tx.common.util.CollectionUtils;
 import com.mieyde.tx.common.util.FileUtils;
 import com.mieyde.tx.common.util.ObjectUtils;
-import com.mieyde.tx.common.util.StringUtls;
+import com.mieyde.tx.common.util.StringUtils;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -79,15 +79,15 @@ public class AreaDemo {
     }
 
     private static Area find(String area,String street,String community){
-        if (StringUtls.isBlank(area)){
+        if (StringUtils.isBlank(area)){
             throw new RuntimeException("地区不能为空");
         }
         int flag = 1;
-        if (StringUtls.isNotBlank(street) && StringUtls.isBlank(community)){
+        if (StringUtils.isNotBlank(street) && StringUtils.isBlank(community)){
             flag = 2;
-        }else if (StringUtls.isNotBlank(street) && StringUtls.isNotBlank(community)){
+        }else if (StringUtils.isNotBlank(street) && StringUtils.isNotBlank(community)){
             flag = 3;
-        }else if (StringUtls.isBlank(street) && StringUtls.isNotBlank(community)){
+        }else if (StringUtils.isBlank(street) && StringUtils.isNotBlank(community)){
             throw new RuntimeException("请按照参数进行传递");
         }
 

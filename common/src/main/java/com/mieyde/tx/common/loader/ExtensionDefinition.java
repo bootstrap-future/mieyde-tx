@@ -1,7 +1,7 @@
 package com.mieyde.tx.common.loader;
 
 import com.mieyde.tx.common.util.ObjectUtils;
-import com.mieyde.tx.common.util.StringUtls;
+import com.mieyde.tx.common.util.StringUtils;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -22,7 +22,7 @@ public class ExtensionDefinition<T> {
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + (StringUtls.isBlank(name) ? 0 : name.hashCode());
+        result = prime * result + (StringUtils.isBlank(name) ? 0 : name.hashCode());
         result = prime * result + (ObjectUtils.isNull(serviceClass) ? 0 : serviceClass.hashCode());
         result = prime * result + (ObjectUtils.isNull(order) ? 0 : order.hashCode());
         result = prime * result + (ObjectUtils.isNull(scope) ? 0 : scope.hashCode());
@@ -38,7 +38,7 @@ public class ExtensionDefinition<T> {
             return false;
         }
         ExtensionDefinition<?> other = (ExtensionDefinition<?>) obj;
-        if (!StringUtls.equals(this.name,other.getName())
+        if (!StringUtils.equals(this.name,other.getName())
                 || !ObjectUtils.equals(this.serviceClass,other.getServiceClass())
                 || !ObjectUtils.equals(this.order,other.getOrder())
                 || !ObjectUtils.equals(this.scope,other.getScope())

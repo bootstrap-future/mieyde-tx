@@ -1,6 +1,6 @@
 package com.mieyde.tx.config;
 
-import com.mieyde.tx.common.util.StringUtls;
+import com.mieyde.tx.common.util.StringUtils;
 
 /**
  * @author 我吃稀饭面
@@ -11,7 +11,7 @@ public abstract class AbstractConfiguration implements Configuration{
     @Override
     public String getConfig(String dataId, String defaultValue) {
         String value = getConfigBySystem(dataId);
-        if (StringUtls.isNotBlank(value)){
+        if (StringUtils.isNotBlank(value)){
             return value;
         }
         return getLatestConfig(dataId,defaultValue);

@@ -1,7 +1,7 @@
 package com.mieyde.tx.discovery.registry;
 
 import com.mieyde.tx.common.util.ObjectUtils;
-import com.mieyde.tx.common.util.StringUtls;
+import com.mieyde.tx.common.util.StringUtils;
 import com.mieyde.tx.config.Configuration;
 import com.mieyde.tx.config.ConfigurationFactory;
 
@@ -58,11 +58,11 @@ public class FileRegistryServiceImpl implements RegistryService{
     @Override
     public List<InetSocketAddress> lookup(String key) throws Exception {
         String clusterName = getServiceGroup(key);
-        if (StringUtls.isBlank(clusterName)){
+        if (StringUtils.isBlank(clusterName)){
             return null;
         }
         String endpointStr = CONFIG.getConfig(PREFIX_SERVICE_ROOT + CONFIG_SPLIT_CHAR + clusterName + POSTFIX_GROUPLIST);
-        if (StringUtls.isBlank(endpointStr)) {
+        if (StringUtils.isBlank(endpointStr)) {
             throw new IllegalArgumentException(clusterName + POSTFIX_GROUPLIST + " is required");
         }
         String[] endpoints = endpointStr.split(ENDPOINT_SPLIT_CHAR);

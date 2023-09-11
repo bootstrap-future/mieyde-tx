@@ -1,7 +1,6 @@
 package com.mieyde.tx.common.util;
 
 import cn.hutool.core.util.StrUtil;
-import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -110,7 +109,7 @@ public class FileUtils {
      */
     public static void delFile(String fileNameAndPath){
         try {
-            if (StringUtls.isBlank(fileNameAndPath)){
+            if (StringUtils.isBlank(fileNameAndPath)){
                 return;
             }
             File file = load(fileNameAndPath);
@@ -129,7 +128,7 @@ public class FileUtils {
      * @param fileContent 文件内容
      */
     public static void newFile(String fileNameAndPath,String fileContent){
-        if (StringUtls.isBlank(fileNameAndPath)){
+        if (StringUtils.isBlank(fileNameAndPath)){
             return;
         }
         FileWriter resultFile = null;
@@ -142,7 +141,7 @@ public class FileUtils {
             if (!file.exists()){
                 file.createNewFile();
             }
-            if (StringUtls.isBlank(fileContent)){
+            if (StringUtils.isBlank(fileContent)){
                 return;
             }
             String content = fileContent;
@@ -161,7 +160,7 @@ public class FileUtils {
      */
     public static void newFolder(String folderPath){
         try {
-            if (StringUtls.isBlank(folderPath)){
+            if (StringUtils.isBlank(folderPath)){
                 return;
             }
             File file = load(folderPath);
@@ -186,7 +185,7 @@ public class FileUtils {
             }
             return content.toString();
         } catch (Exception e) {
-            return StringUtils.EMPTY;
+            return org.apache.commons.lang.StringUtils.EMPTY;
         }
     }
 

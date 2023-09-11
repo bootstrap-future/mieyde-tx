@@ -5,7 +5,7 @@ import com.mieyde.tx.common.exception.EnhancedServiceNotFoundException;
 import com.mieyde.tx.common.executor.Initialize;
 import com.mieyde.tx.common.util.CollectionUtils;
 import com.mieyde.tx.common.util.ObjectUtils;
-import com.mieyde.tx.common.util.StringUtls;
+import com.mieyde.tx.common.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -211,7 +211,7 @@ public class EnhancedServiceLoader {
         }
 
         private T loadExtension(String activateName, ClassLoader loader, Class[] argTypes,Object[] args) {
-            if (StringUtls.isBlank(activateName)){
+            if (StringUtils.isBlank(activateName)){
                 throw new IllegalArgumentException("the name of service provider for [" + type.getName() + "] name is null");
             }
             loadAllExtensionClass(loader);
@@ -310,7 +310,7 @@ public class EnhancedServiceLoader {
                                 line = line.substring(0,ci);
                             }
                             line = line.trim();
-                            if (StringUtls.isNotBlank(line)){
+                            if (StringUtils.isNotBlank(line)){
                                 hasClasses = true;
                                 try {
                                     ExtensionDefinition<T> extensionDefinition = getUnloadedExtensionDefinition(line,loader);
@@ -363,7 +363,7 @@ public class EnhancedServiceLoader {
 
                 ExtensionDefinition<T> result = new ExtensionDefinition<>(serviceName, enhancedServiceClass, priority, scope);
                 classToDefinitionMap.put(clazz,result);
-                if (StringUtls.isNotBlank(serviceName)){
+                if (StringUtils.isNotBlank(serviceName)){
                     CollectionUtils.computeIfAbsent(nameToDefinitionsMap,serviceName, key -> new ArrayList<>()).add(result);
                 }
                 return result;
@@ -373,7 +373,7 @@ public class EnhancedServiceLoader {
 
         private boolean isDefinitionContainsClazz(String className, ClassLoader loader) {
             for (Map.Entry<Class<?>, ExtensionDefinition<T>> entry : classToDefinitionMap.entrySet()) {
-                if (!StringUtls.equals(entry.getKey().getName(),className)){
+                if (!StringUtils.equals(entry.getKey().getName(),className)){
                     continue;
                 }
                 if (ObjectUtils.equals(entry.getValue().getServiceClass().getClassLoader(),loader)){
