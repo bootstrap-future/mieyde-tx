@@ -1,4 +1,4 @@
-package com.mieyde.tx.config;
+package com.mieyde.tx.config.sh;
 
 import cn.hutool.extra.pinyin.PinyinUtil;
 import com.alibaba.fastjson.JSONArray;

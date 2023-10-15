@@ -1,0 +1,4421 @@
+[
+  {
+    "name" : "绵阳市",
+    "pCode" : "51",
+    "level" : "CITY",
+    "code" : "5107",
+    "pinyin" : "mys",
+    "detail" : "四川省绵阳市",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "涪城区",
+    "code" : "510703",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "fcq",
+    "detail" : "四川省绵阳市涪城区"
+  },
+  {
+    "name" : "青义镇",
+    "code" : "510703001",
+    "pCode" : "510703",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "qyz",
+    "detail" : "四川省绵阳市涪城区青义镇"
+  },
+  {
+    "name" : "金家林社区",
+    "code" : "510703001001",
+    "pCode" : "510703001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jlsq",
+    "detail" : "四川省绵阳市涪城区青义镇金家林社区"
+  },
+  {
+    "name" : "灯塔社区",
+    "code" : "510703001002",
+    "pCode" : "510703001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "dtsq",
+    "detail" : "四川省绵阳市涪城区青义镇灯塔社区"
+  },
+  {
+    "name" : "龙门社区",
+    "code" : "510703001003",
+    "pCode" : "510703001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "lmsq",
+    "detail" : "四川省绵阳市涪城区青义镇龙门社区"
+  },
+  {
+    "name" : "玉龙村",
+    "code" : "510703001004",
+    "pCode" : "510703001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ylcsq",
+    "detail" : "四川省绵阳市涪城区青义镇玉龙村"
+  },
+  {
+    "name" : "绵兴村",
+    "code" : "510703001005",
+    "pCode" : "510703001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "mxc",
+    "detail" : "四川省绵阳市涪城区青义镇绵兴村"
+  },
+  {
+    "name" : "西园村",
+    "code" : "510703001006",
+    "pCode" : "510703001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xyc",
+    "detail" : "四川省绵阳市涪城区青义镇西园村"
+  },
+  {
+    "name" : "城郊街道",
+    "code" : "510703002",
+    "pCode" : "510703",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "cjjd",
+    "detail" : "四川省绵阳市涪城区城郊街道"
+  },
+  {
+    "name" : "城郊社区",
+    "code" : "510703002001",
+    "pCode" : "510703002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "cjsq",
+    "detail" : "四川省绵阳市涪城区城郊街道城郊社区"
+  },
+  {
+    "name" : "平政社区",
+    "code" : "510703002002",
+    "pCode" : "510703002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "pzsq",
+    "detail" : "四川省绵阳市涪城区城郊街道平政社区"
+  },
+  {
+    "name" : "高水社区",
+    "code" : "510703002003",
+    "pCode" : "510703002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "gssq",
+    "detail" : "四川省绵阳市涪城区城郊街道高水社区"
+  },
+  {
+    "name" : "南河社区",
+    "code" : "510703002004",
+    "pCode" : "510703002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "nhsq",
+    "detail" : "四川省绵阳市涪城区城郊街道南河社区"
+  },
+  {
+    "name" : "花园第二社区",
+    "code" : "510703002005",
+    "pCode" : "510703002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hydesq",
+    "detail" : "四川省绵阳市涪城区城郊街道花园第二社区"
+  },
+  {
+    "name" : "三里社区",
+    "code" : "510703002006",
+    "pCode" : "510703002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "slsq",
+    "detail" : "四川省绵阳市涪城区城郊街道三里社区"
+  },
+  {
+    "name" : "沿江社区",
+    "code" : "510703002007",
+    "pCode" : "510703002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "yjsq",
+    "detail" : "四川省绵阳市涪城区城郊街道沿江社区"
+  },
+  {
+    "name" : "新庙社区",
+    "code" : "510703002008",
+    "pCode" : "510703002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xmsq",
+    "detail" : "四川省绵阳市涪城区城郊街道新庙社区"
+  },
+  {
+    "name" : "牌坊社区",
+    "code" : "510703002009",
+    "pCode" : "510703002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "pfsq",
+    "detail" : "四川省绵阳市涪城区城郊街道牌坊社区"
+  },
+  {
+    "name" : "花园第一社区",
+    "code" : "510703002010",
+    "pCode" : "510703002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hydysq",
+    "detail" : "四川省绵阳市涪城区城郊街道花园第一社区"
+  },
+  {
+    "name" : "圣水社区",
+    "code" : "510703002011",
+    "pCode" : "510703002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "sssq",
+    "detail" : "四川省绵阳市涪城区城郊街道圣水社区"
+  },
+  {
+    "name" : "城厢街道",
+    "code" : "510703003",
+    "pCode" : "510703",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "cxjd",
+    "detail" : "四川省绵阳市涪城区城厢街道"
+  },
+  {
+    "name" : "解放街社区",
+    "code" : "510703003001",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jfjsq",
+    "detail" : "四川省绵阳市涪城区城厢街道解放街社区"
+  },
+  {
+    "name" : "钟鼓楼社区",
+    "code" : "510703003002",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "zglsq",
+    "detail" : "四川省绵阳市涪城区城厢街道钟鼓楼社区"
+  },
+  {
+    "name" : "警钟街社区",
+    "code" : "510703003003",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jzjsq",
+    "detail" : "四川省绵阳市涪城区城厢街道警钟街社区"
+  },
+  {
+    "name" : "建国门社区",
+    "code" : "510703003004",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jgmsq",
+    "detail" : "四川省绵阳市涪城区城厢街道建国门社区"
+  },
+  {
+    "name" : "文昌社区",
+    "code" : "510703003005",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "wcsq",
+    "detail" : "四川省绵阳市涪城区城厢街道文昌社区"
+  },
+  {
+    "name" : "成绵路社区",
+    "code" : "510703003006",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "cjlsq",
+    "detail" : "四川省绵阳市涪城区城厢街道成绵路社区"
+  },
+  {
+    "name" : "会仙社区",
+    "code" : "510703003007",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hxsq",
+    "detail" : "四川省绵阳市涪城区城厢街道会仙社区"
+  },
+  {
+    "name" : "绵兴路社区",
+    "code" : "510703003008",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "mxlsq",
+    "detail" : "四川省绵阳市涪城区城厢街道绵兴路社区"
+  },
+  {
+    "name" : "安昌社区",
+    "code" : "510703003009",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "acsq",
+    "detail" : "四川省绵阳市涪城区城厢街道安昌社区"
+  },
+  {
+    "name" : "得月楼社区",
+    "code" : "510703003010",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "dylsq",
+    "detail" : "四川省绵阳市涪城区城厢街道得月楼社区"
+  },
+  {
+    "name" : "滨江社区",
+    "code" : "510703003011",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "bjsq",
+    "detail" : "四川省绵阳市涪城区城厢街道滨江社区"
+  },
+  {
+    "name" : "铁牛街社区",
+    "code" : "510703003012",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "tnjsq",
+    "detail" : "四川省绵阳市涪城区城厢街道铁牛街社区"
+  },
+  {
+    "name" : "临园路东段社区",
+    "code" : "510703003013",
+    "pCode" : "510703003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "lylddsq",
+    "detail" : "四川省绵阳市涪城区城厢街道临园路东段社区"
+  },
+  {
+    "name" : "工区街道",
+    "code" : "510703004",
+    "pCode" : "510703",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "gqjd",
+    "detail" : "四川省绵阳市涪城区工区街道"
+  },
+  {
+    "name" : "朝阳社区",
+    "code" : "510703004001",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "cysq",
+    "detail" : "四川省绵阳市涪城区工区街道朝阳社区"
+  },
+  {
+    "name" : "迎宾社区",
+    "code" : "510703004002",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ybsq",
+    "detail" : "四川省绵阳市涪城区工区街道迎宾社区"
+  },
+  {
+    "name" : "跃北社区",
+    "code" : "510703004003",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ybsq",
+    "detail" : "四川省绵阳市涪城区工区街道跃北社区"
+  },
+  {
+    "name" : "西山社区",
+    "code" : "510703004004",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xssq",
+    "detail" : "四川省绵阳市涪城区工区街道西山社区"
+  },
+  {
+    "name" : "华丰社区",
+    "code" : "510703004005",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hfsq",
+    "detail" : "四川省绵阳市涪城区工区街道华丰社区"
+  },
+  {
+    "name" : "灵通社区",
+    "code" : "510703004006",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ltsq",
+    "detail" : "四川省绵阳市涪城区工区街道灵通社区"
+  },
+  {
+    "name" : "九洲社区",
+    "code" : "510703004007",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jzsq",
+    "detail" : "四川省绵阳市涪城区工区街道九洲社区"
+  },
+  {
+    "name" : "绵江社区",
+    "code" : "510703004008",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "mjsq",
+    "detail" : "四川省绵阳市涪城区工区街道绵江社区"
+  },
+  {
+    "name" : "子云亭社区",
+    "code" : "510703004009",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "zytsq",
+    "detail" : "四川省绵阳市涪城区工区街道子云亭社区"
+  },
+  {
+    "name" : "滨涪社区",
+    "code" : "510703004010",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "bfsq",
+    "detail" : "四川省绵阳市涪城区工区街道滨涪社区"
+  },
+  {
+    "name" : "绵州社区",
+    "code" : "510703004011",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "mzsq",
+    "detail" : "四川省绵阳市涪城区工区街道绵州社区"
+  },
+  {
+    "name" : "金菊社区",
+    "code" : "510703004012",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jjsq",
+    "detail" : "四川省绵阳市涪城区工区街道金菊社区"
+  },
+  {
+    "name" : "飞来石社区",
+    "code" : "510703004013",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "flssq",
+    "detail" : "四川省绵阳市涪城区工区街道飞来石社区"
+  },
+  {
+    "name" : "临园路西段社区",
+    "code" : "510703004014",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "lylxdsq",
+    "detail" : "四川省绵阳市涪城区工区街道临园路西段社区"
+  },
+  {
+    "name" : "花园南街社区",
+    "code" : "510703004015",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hynjsq",
+    "detail" : "四川省绵阳市涪城区工区街道花园南街社区"
+  },
+  {
+    "name" : "长虹社区",
+    "code" : "510703004016",
+    "pCode" : "510703004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ybsq",
+    "detail" : "四川省绵阳市涪城区工区街道长虹社区"
+  },
+  {
+    "name" : "石塘街道",
+    "code" : "510703005",
+    "pCode" : "510703",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "stjd",
+    "detail" : "四川省绵阳市涪城区石塘街道"
+  },
+  {
+    "name" : "御营社区",
+    "code" : "510703005001",
+    "pCode" : "510703005",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "yysq",
+    "detail" : "四川省绵阳市涪城区石塘街道御营社区"
+  },
+  {
+    "name" : "红星社区",
+    "code" : "510703005002",
+    "pCode" : "510703005",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hxsq",
+    "detail" : "四川省绵阳市涪城区石塘街道红星社区"
+  },
+  {
+    "name" : "古井社区",
+    "code" : "510703005003",
+    "pCode" : "510703005",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "gjsq",
+    "detail" : "四川省绵阳市涪城区石塘街道古井社区"
+  },
+  {
+    "name" : "西河路社区",
+    "code" : "510703005004",
+    "pCode" : "510703005",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xhlsq",
+    "detail" : "四川省绵阳市涪城区石塘街道西河路社区"
+  },
+  {
+    "name" : "石塘路社区",
+    "code" : "510703005005",
+    "pCode" : "510703005",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "stlsq",
+    "detail" : "四川省绵阳市涪城区石塘街道石塘路社区"
+  },
+  {
+    "name" : "小浮桥社区",
+    "code" : "510703005006",
+    "pCode" : "510703005",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xfqsq",
+    "detail" : "四川省绵阳市涪城区石塘街道小浮桥社区"
+  },
+  {
+    "name" : "御新社区",
+    "code" : "510703005007",
+    "pCode" : "510703005",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "yxsq",
+    "detail" : "四川省绵阳市涪城区石塘街道御新社区"
+  },
+  {
+    "name" : "南山社区",
+    "code" : "510703005008",
+    "pCode" : "510703005",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "nssq",
+    "detail" : "四川省绵阳市涪城区石塘街道南山社区"
+  },
+  {
+    "name" : "御安社区",
+    "code" : "510703005009",
+    "pCode" : "510703005",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "yasq",
+    "detail" : "四川省绵阳市涪城区石塘街道御安社区"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510703006",
+    "detail" : "四川省绵阳市涪城区丰谷镇",
+    "level" : "STREET",
+    "name" : "丰谷镇",
+    "pCode" : "510703",
+    "pinyin" : "fgz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510703007",
+    "detail" : "四川省绵阳市涪城区吴家镇",
+    "level" : "STREET",
+    "name" : "吴家镇",
+    "pCode" : "510703",
+    "pinyin" : "wjz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510703008",
+    "detail" : "四川省绵阳市涪城区新皂镇",
+    "level" : "STREET",
+    "name" : "新皂镇",
+    "pCode" : "510703",
+    "pinyin" : "xzz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510703009",
+    "detail" : "四川省绵阳市涪城区杨家镇",
+    "level" : "STREET",
+    "name" : "杨家镇",
+    "pCode" : "510703",
+    "pinyin" : "yjz"
+  },
+  {
+    "name" : "游仙区",
+    "code" : "510704",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "yxq",
+    "detail" : "四川省绵阳市游仙区"
+  },
+  {
+    "name" : "涪江街道",
+    "code" : "510704001",
+    "pCode" : "510704",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "fjjd",
+    "detail" : "四川省绵阳市游仙区涪江街道"
+  },
+  {
+    "name" : "东材社区",
+    "code" : "510704001001",
+    "pCode" : "510704001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "dcsq",
+    "detail" : "四川省绵阳市游仙区涪江街道东材社区"
+  },
+  {
+    "name" : "剑南路东段社区",
+    "code" : "510704001002",
+    "pCode" : "510704001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jnlddsq",
+    "detail" : "四川省绵阳市游仙区涪江街道剑南路东段社区"
+  },
+  {
+    "name" : "开元路社区",
+    "code" : "510704001003",
+    "pCode" : "510704001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "kylsq",
+    "detail" : "四川省绵阳市游仙区涪江街道开元路社区"
+  },
+  {
+    "name" : "开元路中街社区",
+    "code" : "510704001004",
+    "pCode" : "510704001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "kylzjsq",
+    "detail" : "四川省绵阳市游仙区涪江街道开元路中街社区"
+  },
+  {
+    "name" : "韩家脊社区",
+    "code" : "510704001005",
+    "pCode" : "510704001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hjjsq",
+    "detail" : "四川省绵阳市游仙区涪江街道韩家脊社区"
+  },
+  {
+    "name" : "绵山路社区",
+    "code" : "510704001006",
+    "pCode" : "510704001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "mslsq",
+    "detail" : "四川省绵阳市游仙区涪江街道绵山路社区"
+  },
+  {
+    "name" : "五里堆路社区",
+    "code" : "510704001007",
+    "pCode" : "510704001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "wldlsq",
+    "detail" : "四川省绵阳市游仙区涪江街道五里堆路社区"
+  },
+  {
+    "name" : "治平路社区",
+    "code" : "510704001008",
+    "pCode" : "510704001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "zplsq",
+    "detail" : "四川省绵阳市游仙区涪江街道治平路社区"
+  },
+  {
+    "name" : "富乐街道",
+    "code" : "510704002",
+    "pCode" : "510704",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "fljd",
+    "detail" : "四川省绵阳市游仙区富乐街道"
+  },
+  {
+    "name" : "李杜祠社区",
+    "code" : "510704002001",
+    "pCode" : "510704002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ldcsq",
+    "detail" : "四川省绵阳市游仙区富乐街道李杜祠社区"
+  },
+  {
+    "name" : "仙人路社区",
+    "code" : "510704002002",
+    "pCode" : "510704002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xrlsq",
+    "detail" : "四川省绵阳市游仙区富乐街道仙人路社区"
+  },
+  {
+    "name" : "沈家坝北街社区",
+    "code" : "510704002003",
+    "pCode" : "510704002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "sjbbjsq",
+    "detail" : "四川省绵阳市游仙区富乐街道沈家坝北街社区"
+  },
+  {
+    "name" : "沈家坝东街社区",
+    "code" : "510704002004",
+    "pCode" : "510704002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "sjbdjsq",
+    "detail" : "四川省绵阳市游仙区富乐街道沈家坝东街社区"
+  },
+  {
+    "name" : "58社区",
+    "code" : "510704002005",
+    "pCode" : "510704002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "58sq",
+    "detail" : "四川省绵阳市游仙区富乐街道58社区"
+  },
+  {
+    "name" : "东街社区",
+    "code" : "510704002006",
+    "pCode" : "510704002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "58sq",
+    "detail" : "四川省绵阳市游仙区富乐街道东街社区"
+  },
+  {
+    "name" : "经济试验区",
+    "code" : "510704003",
+    "pCode" : "510704",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jjsyq",
+    "detail" : "四川省绵阳市游仙区经济试验区"
+  },
+  {
+    "name" : "游仙路社区",
+    "code" : "510704003001",
+    "pCode" : "510704003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "yxlsq",
+    "detail" : "四川省绵阳市游仙区经济试验区游仙路社区"
+  },
+  {
+    "name" : "民安社区",
+    "code" : "510704003002",
+    "pCode" : "510704003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "masq",
+    "detail" : "四川省绵阳市游仙区经济试验区民安社区"
+  },
+  {
+    "name" : "桑林社区",
+    "code" : "510704003003",
+    "pCode" : "510704003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "slsq",
+    "detail" : "四川省绵阳市游仙区经济试验区桑林社区"
+  },
+  {
+    "name" : "小岛社区",
+    "code" : "510704003004",
+    "pCode" : "510704003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xdsq",
+    "detail" : "四川省绵阳市游仙区经济试验区小岛社区"
+  },
+  {
+    "name" : "六里社区",
+    "code" : "510704003005",
+    "pCode" : "510704003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "llsq",
+    "detail" : "四川省绵阳市游仙区经济试验区六里社区"
+  },
+  {
+    "name" : "汉仙桥社区",
+    "code" : "510704003006",
+    "pCode" : "510704003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hxqsq",
+    "detail" : "四川省绵阳市游仙区经济试验区汉仙桥社区"
+  },
+  {
+    "name" : "游仙东路社区",
+    "code" : "510704003007",
+    "pCode" : "510704003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "yxdlsq",
+    "detail" : "四川省绵阳市游仙区经济试验区游仙东路社区"
+  },
+  {
+    "name" : "汉城社区",
+    "code" : "510704003008",
+    "pCode" : "510704003",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hcsq",
+    "detail" : "四川省绵阳市游仙区经济试验区汉城社区"
+  },
+  {
+    "name" : "小枧镇",
+    "code" : "510704004",
+    "pCode" : "510704",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xgz",
+    "detail" : "四川省绵阳市游仙区小枧镇"
+  },
+  {
+    "name" : "新华社区",
+    "code" : "510704004001",
+    "pCode" : "510704004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xhsq",
+    "detail" : "四川省绵阳市游仙区小枧镇新华社区"
+  },
+  {
+    "name" : "紫阳社区",
+    "code" : "510704004002",
+    "pCode" : "510704004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "zysq",
+    "detail" : "四川省绵阳市游仙区小枧镇紫阳社区"
+  },
+  {
+    "name" : "紫阳第一社区",
+    "code" : "510704004003",
+    "pCode" : "510704004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "dysq",
+    "detail" : "四川省绵阳市游仙区小枧镇紫阳第一社区"
+  },
+  {
+    "name" : "思源社区",
+    "code" : "510704004004",
+    "pCode" : "510704004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "sysq",
+    "detail" : "四川省绵阳市游仙区小枧镇思源社区"
+  },
+  {
+    "name" : "大河社区",
+    "code" : "510704004005",
+    "pCode" : "510704004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "dhsq",
+    "detail" : "四川省绵阳市游仙区小枧镇大河社区"
+  },
+  {
+    "name" : "三星社区",
+    "code" : "510704004006",
+    "pCode" : "510704004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "sxsq",
+    "detail" : "四川省绵阳市游仙区小枧镇三星社区"
+  },
+  {
+    "name" : "利民社区",
+    "code" : "510704004007",
+    "pCode" : "510704004",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "lmsq",
+    "detail" : "四川省绵阳市游仙区小枧镇利民社区"
+  },
+  {
+    "name" : "游仙街道",
+    "code" : "510704005",
+    "pCode" : "510704",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "yxjd",
+    "detail" : "四川省绵阳市游仙区游仙街道"
+  },
+  {
+    "name" : "游仙观社区",
+    "code" : "510704005001",
+    "pCode" : "510704005",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "yxgsq",
+    "detail" : "四川省绵阳市游仙区游仙街道游仙观社区"
+  },
+  {
+    "name" : "芙蓉社区",
+    "code" : "510704005002",
+    "pCode" : "510704005",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "frsq",
+    "detail" : "四川省绵阳市游仙区游仙街道芙蓉社区"
+  },
+  {
+    "name" : "石马镇",
+    "code" : "510704006",
+    "pCode" : "510704",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "smz",
+    "detail" : "四川省绵阳市游仙区石马镇"
+  },
+  {
+    "name" : "解放社区",
+    "code" : "510704006001",
+    "pCode" : "510704006",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jfsq",
+    "detail" : "四川省绵阳市游仙区石马镇解放社区"
+  },
+  {
+    "name" : "横山社区",
+    "code" : "510704006002",
+    "pCode" : "510704006",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jfsq",
+    "detail" : "四川省绵阳市游仙区石马镇横山社区"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510704007",
+    "detail" : "四川省绵阳市游仙区仙鹤镇",
+    "level" : "STREET",
+    "name" : "仙鹤镇",
+    "pCode" : "510704",
+    "pinyin" : "xhz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510704008",
+    "detail" : "四川省绵阳市游仙区信义镇",
+    "level" : "STREET",
+    "name" : "信义镇",
+    "pCode" : "510704",
+    "pinyin" : "xyz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510704009",
+    "detail" : "四川省绵阳市游仙区忠兴镇",
+    "level" : "STREET",
+    "name" : "忠兴镇",
+    "pCode" : "510704",
+    "pinyin" : "zxz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510704010",
+    "detail" : "四川省绵阳市游仙区新桥镇",
+    "level" : "STREET",
+    "name" : "新桥镇",
+    "pCode" : "510704",
+    "pinyin" : "xqz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510704011",
+    "detail" : "四川省绵阳市游仙区盐泉镇",
+    "level" : "STREET",
+    "name" : "盐泉镇",
+    "pCode" : "510704",
+    "pinyin" : "yqz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510704012",
+    "detail" : "四川省绵阳市游仙区魏城镇",
+    "level" : "STREET",
+    "name" : "魏城镇",
+    "pCode" : "510704",
+    "pinyin" : "wcz"
+  },
+  {
+    "name" : "安州区",
+    "code" : "510705",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "azq",
+    "detail" : "四川省绵阳市安州区"
+  },
+  {
+    "name" : "花荄镇",
+    "code" : "510705001",
+    "pCode" : "510705",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hhz",
+    "detail" : "四川省绵阳市安州区花荄镇"
+  },
+  {
+    "name" : "文星社区",
+    "code" : "510705001001",
+    "pCode" : "510705001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "wxsq",
+    "detail" : "四川省绵阳市安州区花荄镇文星社区"
+  },
+  {
+    "name" : "胜果社区",
+    "code" : "510705001002",
+    "pCode" : "510705001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "sgsq",
+    "detail" : "四川省绵阳市安州区花荄镇胜果社区"
+  },
+  {
+    "name" : "白鹤林社区",
+    "code" : "510705001003",
+    "pCode" : "510705001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "bhlsq",
+    "detail" : "四川省绵阳市安州区花荄镇白鹤林社区"
+  },
+  {
+    "name" : "益昌社区",
+    "code" : "510705001004",
+    "pCode" : "510705001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ycsq",
+    "detail" : "四川省绵阳市安州区花荄镇益昌社区"
+  },
+  {
+    "name" : "界牌镇",
+    "code" : "510705002",
+    "pCode" : "510705",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jpz",
+    "detail" : "四川省绵阳市安州区界牌镇"
+  },
+  {
+    "name" : "江安社区",
+    "code" : "510705002001",
+    "pCode" : "510705002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jasq",
+    "detail" : "四川省绵阳市安州区界牌镇江安社区"
+  },
+  {
+    "name" : "兴安社区",
+    "code" : "510705002002",
+    "pCode" : "510705002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xasq",
+    "detail" : "四川省绵阳市安州区界牌镇兴安社区"
+  },
+  {
+    "name" : "龙集村",
+    "code" : "510705002003",
+    "pCode" : "510705002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ljc",
+    "detail" : "四川省绵阳市安州区界牌镇龙集村"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510705003",
+    "detail" : "四川省绵阳市安州区千佛镇",
+    "level" : "STREET",
+    "name" : "千佛镇",
+    "pCode" : "510705",
+    "pinyin" : "qfz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510705004",
+    "detail" : "四川省绵阳市安州区塔水镇",
+    "level" : "STREET",
+    "name" : "塔水镇",
+    "pCode" : "510705",
+    "pinyin" : "tsz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510705005",
+    "detail" : "四川省绵阳市安州区桑枣镇",
+    "level" : "STREET",
+    "name" : "桑枣镇",
+    "pCode" : "510705",
+    "pinyin" : "szz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510705006",
+    "detail" : "四川省绵阳市安州区河清镇",
+    "level" : "STREET",
+    "name" : "河清镇",
+    "pCode" : "510705",
+    "pinyin" : "hqz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510705007",
+    "detail" : "四川省绵阳市安州区秀水镇",
+    "level" : "STREET",
+    "name" : "秀水镇",
+    "pCode" : "510705",
+    "pinyin" : "xsz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510705008",
+    "detail" : "四川省绵阳市安州区雎水镇",
+    "level" : "STREET",
+    "name" : "雎水镇",
+    "pCode" : "510705",
+    "pinyin" : "jsz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510705009",
+    "detail" : "四川省绵阳市安州区高川乡",
+    "level" : "STREET",
+    "name" : "高川乡",
+    "pCode" : "510705",
+    "pinyin" : "gcx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510705010",
+    "detail" : "四川省绵阳市安州区黄土镇",
+    "level" : "STREET",
+    "name" : "黄土镇",
+    "pCode" : "510705",
+    "pinyin" : "htz"
+  },
+  {
+    "name" : "北川县",
+    "code" : "510706",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "bcx",
+    "detail" : "四川省绵阳市北川县"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706001",
+    "detail" : "四川省绵阳市北川县坝底乡",
+    "level" : "STREET",
+    "name" : "坝底乡",
+    "pCode" : "510706",
+    "pinyin" : "bdx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706002",
+    "detail" : "四川省绵阳市北川县小坝镇",
+    "level" : "STREET",
+    "name" : "小坝镇",
+    "pCode" : "510706",
+    "pinyin" : "xbz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706003",
+    "detail" : "四川省绵阳市北川县开坪乡",
+    "level" : "STREET",
+    "name" : "开坪乡",
+    "pCode" : "510706",
+    "pinyin" : "kpx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706004",
+    "detail" : "四川省绵阳市北川县擂鼓镇",
+    "level" : "STREET",
+    "name" : "擂鼓镇",
+    "pCode" : "510706",
+    "pinyin" : "lgz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706005",
+    "detail" : "四川省绵阳市北川县曲山镇",
+    "level" : "STREET",
+    "name" : "曲山镇",
+    "pCode" : "510706",
+    "pinyin" : "qsz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706006",
+    "detail" : "四川省绵阳市北川县桂溪镇",
+    "level" : "STREET",
+    "name" : "桂溪镇",
+    "pCode" : "510706",
+    "pinyin" : "gxz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706007",
+    "detail" : "四川省绵阳市北川县桃龙藏族乡",
+    "level" : "STREET",
+    "name" : "桃龙藏族乡",
+    "pCode" : "510706",
+    "pinyin" : "tlzzx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706008",
+    "detail" : "四川省绵阳市北川县永安镇",
+    "level" : "STREET",
+    "name" : "永安镇",
+    "pCode" : "510706",
+    "pinyin" : "yaz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706009",
+    "detail" : "四川省绵阳市北川县永昌镇",
+    "level" : "STREET",
+    "name" : "永昌镇",
+    "pCode" : "510706",
+    "pinyin" : "ycz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706010",
+    "detail" : "四川省绵阳市北川县漩坪乡",
+    "level" : "STREET",
+    "name" : "漩坪乡",
+    "pCode" : "510706",
+    "pinyin" : "xpx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706011",
+    "detail" : "四川省绵阳市北川县片口乡",
+    "level" : "STREET",
+    "name" : "片口乡",
+    "pCode" : "510706",
+    "pinyin" : "pkx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706012",
+    "detail" : "四川省绵阳市北川县白什乡",
+    "level" : "STREET",
+    "name" : "白什乡",
+    "pCode" : "510706",
+    "pinyin" : "bsx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706013",
+    "detail" : "四川省绵阳市北川县白坭乡",
+    "level" : "STREET",
+    "name" : "白坭乡",
+    "pCode" : "510706",
+    "pinyin" : "bnx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706014",
+    "detail" : "四川省绵阳市北川县禹里镇",
+    "level" : "STREET",
+    "name" : "禹里镇",
+    "pCode" : "510706",
+    "pinyin" : "ylz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706015",
+    "detail" : "四川省绵阳市北川县通泉镇",
+    "level" : "STREET",
+    "name" : "通泉镇",
+    "pCode" : "510706",
+    "pinyin" : "tqz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706016",
+    "detail" : "四川省绵阳市北川县都贯乡",
+    "level" : "STREET",
+    "name" : "都贯乡",
+    "pCode" : "510706",
+    "pinyin" : "dgx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706017",
+    "detail" : "四川省绵阳市北川县陈家坝镇",
+    "level" : "STREET",
+    "name" : "陈家坝镇",
+    "pCode" : "510706",
+    "pinyin" : "cjbz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706018",
+    "detail" : "四川省绵阳市北川县青片乡",
+    "level" : "STREET",
+    "name" : "青片乡",
+    "pCode" : "510706",
+    "pinyin" : "qpx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510706019",
+    "detail" : "四川省绵阳市北川县马槽乡",
+    "level" : "STREET",
+    "name" : "马槽乡",
+    "pCode" : "510706",
+    "pinyin" : "mcx"
+  },
+  {
+    "name" : "江油市",
+    "code" : "510707",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jys",
+    "detail" : "四川省绵阳市江油市"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707001",
+    "detail" : "四川省绵阳市江油市三合镇",
+    "level" : "STREET",
+    "name" : "三合镇",
+    "pCode" : "510707",
+    "pinyin" : "shz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707002",
+    "detail" : "四川省绵阳市江油市中坝街道",
+    "level" : "STREET",
+    "name" : "中坝街道",
+    "pCode" : "510707",
+    "pinyin" : "zbjd"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707003",
+    "detail" : "四川省绵阳市江油市二郎庙镇",
+    "level" : "STREET",
+    "name" : "二郎庙镇",
+    "pCode" : "510707",
+    "pinyin" : "elmz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707004",
+    "detail" : "四川省绵阳市江油市厚坝镇",
+    "level" : "STREET",
+    "name" : "厚坝镇",
+    "pCode" : "510707",
+    "pinyin" : "hbz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707005",
+    "detail" : "四川省绵阳市江油市双河镇",
+    "level" : "STREET",
+    "name" : "双河镇",
+    "pCode" : "510707",
+    "pinyin" : "shz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707006",
+    "detail" : "四川省绵阳市江油市含增镇",
+    "level" : "STREET",
+    "name" : "含增镇",
+    "pCode" : "510707",
+    "pinyin" : "hzz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707007",
+    "detail" : "四川省绵阳市江油市大堰镇",
+    "level" : "STREET",
+    "name" : "大堰镇",
+    "pCode" : "510707",
+    "pinyin" : "dyz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707008",
+    "detail" : "四川省绵阳市江油市大康镇",
+    "level" : "STREET",
+    "name" : "大康镇",
+    "pCode" : "510707",
+    "pinyin" : "dkz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707009",
+    "detail" : "四川省绵阳市江油市太平镇",
+    "level" : "STREET",
+    "name" : "太平镇",
+    "pCode" : "510707",
+    "pinyin" : "tpz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707010",
+    "detail" : "四川省绵阳市江油市小溪坝镇",
+    "level" : "STREET",
+    "name" : "小溪坝镇",
+    "pCode" : "510707",
+    "pinyin" : "xxbz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707011",
+    "detail" : "四川省绵阳市江油市彰明镇",
+    "level" : "STREET",
+    "name" : "彰明镇",
+    "pCode" : "510707",
+    "pinyin" : "zmz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707012",
+    "detail" : "四川省绵阳市江油市战旗镇",
+    "level" : "STREET",
+    "name" : "战旗镇",
+    "pCode" : "510707",
+    "pinyin" : "zqz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707013",
+    "detail" : "四川省绵阳市江油市新安镇",
+    "level" : "STREET",
+    "name" : "新安镇",
+    "pCode" : "510707",
+    "pinyin" : "xaz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707014",
+    "detail" : "四川省绵阳市江油市方水镇",
+    "level" : "STREET",
+    "name" : "方水镇",
+    "pCode" : "510707",
+    "pinyin" : "fsz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707015",
+    "detail" : "四川省绵阳市江油市枫顺乡",
+    "level" : "STREET",
+    "name" : "枫顺乡",
+    "pCode" : "510707",
+    "pinyin" : "fsx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707016",
+    "detail" : "四川省绵阳市江油市武都镇",
+    "level" : "STREET",
+    "name" : "武都镇",
+    "pCode" : "510707",
+    "pinyin" : "wdz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707017",
+    "detail" : "四川省绵阳市江油市永胜镇",
+    "level" : "STREET",
+    "name" : "永胜镇",
+    "pCode" : "510707",
+    "pinyin" : "ysz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707018",
+    "detail" : "四川省绵阳市江油市河口镇",
+    "level" : "STREET",
+    "name" : "河口镇",
+    "pCode" : "510707",
+    "pinyin" : "hkz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707019",
+    "detail" : "四川省绵阳市江油市西屏镇",
+    "level" : "STREET",
+    "name" : "西屏镇",
+    "pCode" : "510707",
+    "pinyin" : "xpz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707020",
+    "detail" : "四川省绵阳市江油市重华镇",
+    "level" : "STREET",
+    "name" : "重华镇",
+    "pCode" : "510707",
+    "pinyin" : "zhz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707021",
+    "detail" : "四川省绵阳市江油市雁门镇",
+    "level" : "STREET",
+    "name" : "雁门镇",
+    "pCode" : "510707",
+    "pinyin" : "ymz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707022",
+    "detail" : "四川省绵阳市江油市青莲镇",
+    "level" : "STREET",
+    "name" : "青莲镇",
+    "pCode" : "510707",
+    "pinyin" : "qlz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707023",
+    "detail" : "四川省绵阳市江油市马角镇",
+    "level" : "STREET",
+    "name" : "马角镇",
+    "pCode" : "510707",
+    "pinyin" : "mjz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510707024",
+    "detail" : "四川省绵阳市江油市龙凤镇",
+    "level" : "STREET",
+    "name" : "龙凤镇",
+    "pCode" : "510707",
+    "pinyin" : "lfz"
+  },
+  {
+    "name" : "科学城",
+    "code" : "510708",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "kxc",
+    "detail" : "四川省绵阳市科学城"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510708001",
+    "detail" : "四川省绵阳市科学城春雷街道",
+    "level" : "STREET",
+    "name" : "春雷街道",
+    "pCode" : "510708",
+    "pinyin" : "cljd"
+  },
+  {
+    "name" : "平武县",
+    "code" : "510709",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "pwx",
+    "detail" : "四川省绵阳市平武县"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709001",
+    "detail" : "四川省绵阳市平武县古城镇",
+    "level" : "STREET",
+    "name" : "古城镇",
+    "pCode" : "510709",
+    "pinyin" : "gcz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709002",
+    "detail" : "四川省绵阳市平武县响岩镇",
+    "level" : "STREET",
+    "name" : "响岩镇",
+    "pCode" : "510709",
+    "pinyin" : "xyz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709003",
+    "detail" : "四川省绵阳市平武县土城藏族乡",
+    "level" : "STREET",
+    "name" : "土城藏族乡",
+    "pCode" : "510709",
+    "pinyin" : "tczzx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709004",
+    "detail" : "四川省绵阳市平武县坝子乡",
+    "level" : "STREET",
+    "name" : "坝子乡",
+    "pCode" : "510709",
+    "pinyin" : "bzx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709005",
+    "detail" : "四川省绵阳市平武县大桥镇",
+    "level" : "STREET",
+    "name" : "大桥镇",
+    "pCode" : "510709",
+    "pinyin" : "dqz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709006",
+    "detail" : "四川省绵阳市平武县平通羌族乡",
+    "level" : "STREET",
+    "name" : "平通羌族乡",
+    "pCode" : "510709",
+    "pinyin" : "ptqzx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709007",
+    "detail" : "四川省绵阳市平武县旧堡羌族乡",
+    "level" : "STREET",
+    "name" : "旧堡羌族乡",
+    "pCode" : "510709",
+    "pinyin" : "jbqzx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709008",
+    "detail" : "四川省绵阳市平武县木座乡",
+    "level" : "STREET",
+    "name" : "木座乡",
+    "pCode" : "510709",
+    "pinyin" : "mzx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709009",
+    "detail" : "四川省绵阳市平武县木皮乡",
+    "level" : "STREET",
+    "name" : "木皮乡",
+    "pCode" : "510709",
+    "pinyin" : "mpx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709010",
+    "detail" : "四川省绵阳市平武县水晶镇",
+    "level" : "STREET",
+    "name" : "水晶镇",
+    "pCode" : "510709",
+    "pinyin" : "sjz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709011",
+    "detail" : "四川省绵阳市平武县江油关镇",
+    "level" : "STREET",
+    "name" : "江油关镇",
+    "pCode" : "510709",
+    "pinyin" : "jygz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709012",
+    "detail" : "四川省绵阳市平武县泗耳乡",
+    "level" : "STREET",
+    "name" : "泗耳乡",
+    "pCode" : "510709",
+    "pinyin" : "sex"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709013",
+    "detail" : "四川省绵阳市平武县白马乡",
+    "level" : "STREET",
+    "name" : "白马乡",
+    "pCode" : "510709",
+    "pinyin" : "bmx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709014",
+    "detail" : "四川省绵阳市平武县虎牙乡",
+    "level" : "STREET",
+    "name" : "虎牙乡",
+    "pCode" : "510709",
+    "pinyin" : "hyx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709015",
+    "detail" : "四川省绵阳市平武县豆叩羌族乡",
+    "level" : "STREET",
+    "name" : "豆叩羌族乡",
+    "pCode" : "510709",
+    "pinyin" : "dkqzx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709016",
+    "detail" : "四川省绵阳市平武县锁江羌族乡",
+    "level" : "STREET",
+    "name" : "锁江羌族乡",
+    "pCode" : "510709",
+    "pinyin" : "sjqzx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709017",
+    "detail" : "四川省绵阳市平武县阔达羌族乡",
+    "level" : "STREET",
+    "name" : "阔达羌族乡",
+    "pCode" : "510709",
+    "pinyin" : "kdqzx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709018",
+    "detail" : "四川省绵阳市平武县高村乡",
+    "level" : "STREET",
+    "name" : "高村乡",
+    "pCode" : "510709",
+    "pinyin" : "gcx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709019",
+    "detail" : "四川省绵阳市平武县黄羊藏族乡",
+    "level" : "STREET",
+    "name" : "黄羊藏族乡",
+    "pCode" : "510709",
+    "pinyin" : "hyzzx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510709020",
+    "detail" : "四川省绵阳市平武县龙安镇",
+    "level" : "STREET",
+    "name" : "龙安镇",
+    "pCode" : "510709",
+    "pinyin" : "laz"
+  },
+  {
+    "name" : "三台县",
+    "code" : "510710",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "stx",
+    "detail" : "四川省绵阳市三台县"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710001",
+    "detail" : "四川省绵阳市三台县三元镇",
+    "level" : "STREET",
+    "name" : "三元镇",
+    "pCode" : "510710",
+    "pinyin" : "syz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710002",
+    "detail" : "四川省绵阳市三台县中太镇",
+    "level" : "STREET",
+    "name" : "中太镇",
+    "pCode" : "510710",
+    "pinyin" : "ztz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710003",
+    "detail" : "四川省绵阳市三台县中新镇",
+    "level" : "STREET",
+    "name" : "中新镇",
+    "pCode" : "510710",
+    "pinyin" : "zxz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710004",
+    "detail" : "四川省绵阳市三台县乐安镇",
+    "level" : "STREET",
+    "name" : "乐安镇",
+    "pCode" : "510710",
+    "pinyin" : "laz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710005",
+    "detail" : "四川省绵阳市三台县八洞镇",
+    "level" : "STREET",
+    "name" : "八洞镇",
+    "pCode" : "510710",
+    "pinyin" : "bdz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710006",
+    "detail" : "四川省绵阳市三台县刘营镇",
+    "level" : "STREET",
+    "name" : "刘营镇",
+    "pCode" : "510710",
+    "pinyin" : "lyz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710007",
+    "detail" : "四川省绵阳市三台县北坝镇",
+    "level" : "STREET",
+    "name" : "北坝镇",
+    "pCode" : "510710",
+    "pinyin" : "bbz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710008",
+    "detail" : "四川省绵阳市三台县古井镇",
+    "level" : "STREET",
+    "name" : "古井镇",
+    "pCode" : "510710",
+    "pinyin" : "gjz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710009",
+    "detail" : "四川省绵阳市三台县塔山镇",
+    "level" : "STREET",
+    "name" : "塔山镇",
+    "pCode" : "510710",
+    "pinyin" : "tsz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710010",
+    "detail" : "四川省绵阳市三台县富顺镇",
+    "level" : "STREET",
+    "name" : "富顺镇",
+    "pCode" : "510710",
+    "pinyin" : "fsz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710011",
+    "detail" : "四川省绵阳市三台县建中镇",
+    "level" : "STREET",
+    "name" : "建中镇",
+    "pCode" : "510710",
+    "pinyin" : "jzz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710012",
+    "detail" : "四川省绵阳市三台县建平镇",
+    "level" : "STREET",
+    "name" : "建平镇",
+    "pCode" : "510710",
+    "pinyin" : "jpz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710013",
+    "detail" : "四川省绵阳市三台县忠孝乡",
+    "level" : "STREET",
+    "name" : "忠孝乡",
+    "pCode" : "510710",
+    "pinyin" : "zxx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710014",
+    "detail" : "四川省绵阳市三台县断石乡",
+    "level" : "STREET",
+    "name" : "断石乡",
+    "pCode" : "510710",
+    "pinyin" : "dsx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710015",
+    "detail" : "四川省绵阳市三台县新德镇",
+    "level" : "STREET",
+    "name" : "新德镇",
+    "pCode" : "510710",
+    "pinyin" : "xdz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710016",
+    "detail" : "四川省绵阳市三台县新生镇",
+    "level" : "STREET",
+    "name" : "新生镇",
+    "pCode" : "510710",
+    "pinyin" : "xsz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710017",
+    "detail" : "四川省绵阳市三台县新鲁镇",
+    "level" : "STREET",
+    "name" : "新鲁镇",
+    "pCode" : "510710",
+    "pinyin" : "xlz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710018",
+    "detail" : "四川省绵阳市三台县景福镇",
+    "level" : "STREET",
+    "name" : "景福镇",
+    "pCode" : "510710",
+    "pinyin" : "jfz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710019",
+    "detail" : "四川省绵阳市三台县永明镇",
+    "level" : "STREET",
+    "name" : "永明镇",
+    "pCode" : "510710",
+    "pinyin" : "ymz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710020",
+    "detail" : "四川省绵阳市三台县潼川镇",
+    "level" : "STREET",
+    "name" : "潼川镇",
+    "pCode" : "510710",
+    "pinyin" : "tcz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710021",
+    "detail" : "四川省绵阳市三台县灵兴镇",
+    "level" : "STREET",
+    "name" : "灵兴镇",
+    "pCode" : "510710",
+    "pinyin" : "lxz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710022",
+    "detail" : "四川省绵阳市三台县石安镇",
+    "level" : "STREET",
+    "name" : "石安镇",
+    "pCode" : "510710",
+    "pinyin" : "saz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710023",
+    "detail" : "四川省绵阳市三台县秋林镇",
+    "level" : "STREET",
+    "name" : "秋林镇",
+    "pCode" : "510710",
+    "pinyin" : "qlz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710024",
+    "detail" : "四川省绵阳市三台县立新镇",
+    "level" : "STREET",
+    "name" : "立新镇",
+    "pCode" : "510710",
+    "pinyin" : "lxz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710025",
+    "detail" : "四川省绵阳市三台县紫河镇",
+    "level" : "STREET",
+    "name" : "紫河镇",
+    "pCode" : "510710",
+    "pinyin" : "zhz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710026",
+    "detail" : "四川省绵阳市三台县老马镇",
+    "level" : "STREET",
+    "name" : "老马镇",
+    "pCode" : "510710",
+    "pinyin" : "lmz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710027",
+    "detail" : "四川省绵阳市三台县芦溪镇",
+    "level" : "STREET",
+    "name" : "芦溪镇",
+    "pCode" : "510710",
+    "pinyin" : "lxz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710028",
+    "detail" : "四川省绵阳市三台县西平镇",
+    "level" : "STREET",
+    "name" : "西平镇",
+    "pCode" : "510710",
+    "pinyin" : "xpz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710029",
+    "detail" : "四川省绵阳市三台县观桥镇",
+    "level" : "STREET",
+    "name" : "观桥镇",
+    "pCode" : "510710",
+    "pinyin" : "gqz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710030",
+    "detail" : "四川省绵阳市三台县郪江镇",
+    "level" : "STREET",
+    "name" : "郪江镇",
+    "pCode" : "510710",
+    "pinyin" : "qjz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710031",
+    "detail" : "四川省绵阳市三台县金石镇",
+    "level" : "STREET",
+    "name" : "金石镇",
+    "pCode" : "510710",
+    "pinyin" : "jsz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710032",
+    "detail" : "四川省绵阳市三台县鲁班镇",
+    "level" : "STREET",
+    "name" : "鲁班镇",
+    "pCode" : "510710",
+    "pinyin" : "lbz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510710033",
+    "detail" : "四川省绵阳市三台县龙树镇",
+    "level" : "STREET",
+    "name" : "龙树镇",
+    "pCode" : "510710",
+    "pinyin" : "lsz"
+  },
+  {
+    "name" : "仙海区",
+    "code" : "510711",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xhq",
+    "detail" : "四川省绵阳市仙海区"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510711001",
+    "detail" : "四川省绵阳市仙海区沉抗镇",
+    "level" : "STREET",
+    "name" : "沉抗镇",
+    "pCode" : "510711",
+    "pinyin" : "ckz"
+  },
+  {
+    "name" : "盐亭县",
+    "code" : "510712",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ytx",
+    "detail" : "四川省绵阳市盐亭县"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712001",
+    "detail" : "四川省绵阳市盐亭县九龙镇",
+    "level" : "STREET",
+    "name" : "九龙镇",
+    "pCode" : "510712",
+    "pinyin" : "jlz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712002",
+    "detail" : "四川省绵阳市盐亭县云溪镇",
+    "level" : "STREET",
+    "name" : "云溪镇",
+    "pCode" : "510712",
+    "pinyin" : "yxz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712003",
+    "detail" : "四川省绵阳市盐亭县凤灵街道",
+    "level" : "STREET",
+    "name" : "凤灵街道",
+    "pCode" : "510712",
+    "pinyin" : "fljd"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712004",
+    "detail" : "四川省绵阳市盐亭县大兴回族乡",
+    "level" : "STREET",
+    "name" : "大兴回族乡",
+    "pCode" : "510712",
+    "pinyin" : "dxhzx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712005",
+    "detail" : "四川省绵阳市盐亭县嫘祖镇",
+    "level" : "STREET",
+    "name" : "嫘祖镇",
+    "pCode" : "510712",
+    "pinyin" : "lzz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712006",
+    "detail" : "四川省绵阳市盐亭县富驿镇",
+    "level" : "STREET",
+    "name" : "富驿镇",
+    "pCode" : "510712",
+    "pinyin" : "fyz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712007",
+    "detail" : "四川省绵阳市盐亭县岐伯镇",
+    "level" : "STREET",
+    "name" : "岐伯镇",
+    "pCode" : "510712",
+    "pinyin" : "qbz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712008",
+    "detail" : "四川省绵阳市盐亭县巨龙镇",
+    "level" : "STREET",
+    "name" : "巨龙镇",
+    "pCode" : "510712",
+    "pinyin" : "jlz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712009",
+    "detail" : "四川省绵阳市盐亭县文通镇",
+    "level" : "STREET",
+    "name" : "文通镇",
+    "pCode" : "510712",
+    "pinyin" : "wtz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712010",
+    "detail" : "四川省绵阳市盐亭县永泰镇",
+    "level" : "STREET",
+    "name" : "永泰镇",
+    "pCode" : "510712",
+    "pinyin" : "ytz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712011",
+    "detail" : "四川省绵阳市盐亭县玉龙镇",
+    "level" : "STREET",
+    "name" : "玉龙镇",
+    "pCode" : "510712",
+    "pinyin" : "ylz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712012",
+    "detail" : "四川省绵阳市盐亭县莲花湖乡",
+    "level" : "STREET",
+    "name" : "莲花湖乡",
+    "pCode" : "510712",
+    "pinyin" : "lhhx"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712013",
+    "detail" : "四川省绵阳市盐亭县西陵镇",
+    "level" : "STREET",
+    "name" : "西陵镇",
+    "pCode" : "510712",
+    "pinyin" : "xlz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712014",
+    "detail" : "四川省绵阳市盐亭县金孔镇",
+    "level" : "STREET",
+    "name" : "金孔镇",
+    "pCode" : "510712",
+    "pinyin" : "jkz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712015",
+    "detail" : "四川省绵阳市盐亭县高渠镇",
+    "level" : "STREET",
+    "name" : "高渠镇",
+    "pCode" : "510712",
+    "pinyin" : "gqz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712016",
+    "detail" : "四川省绵阳市盐亭县鹅溪镇",
+    "level" : "STREET",
+    "name" : "鹅溪镇",
+    "pCode" : "510712",
+    "pinyin" : "exz"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510712017",
+    "detail" : "四川省绵阳市盐亭县黄甸镇",
+    "level" : "STREET",
+    "name" : "黄甸镇",
+    "pCode" : "510712",
+    "pinyin" : "hdz"
+  },
+  {
+    "name" : "梓潼县",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "code" : "510725",
+    "pinyin" : "ztx",
+    "detail" : "四川省绵阳市梓潼县",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "文昌镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725100",
+    "pinyin" : "wcz",
+    "detail" : "四川省绵阳市梓潼县文昌镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "翠云社区居民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100001",
+    "pinyin" : "cysqjmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇翠云社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "崇文社区居民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100002",
+    "pinyin" : "cwsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇崇文社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "紫阳社区居民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100003",
+    "pinyin" : "zysqjmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇紫阳社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "潼江社区居民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100004",
+    "pinyin" : "tjsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇潼江社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "龙口村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100201",
+    "pinyin" : "lkccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇龙口村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "连枝村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100202",
+    "pinyin" : "lzccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇连枝村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "西河村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100204",
+    "pinyin" : "xhccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇西河村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "先锋村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100205",
+    "pinyin" : "xfccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇先锋村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "文丰村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100206",
+    "pinyin" : "wfccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇文丰村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "青岭村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100208",
+    "pinyin" : "qlccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇青岭村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "城郊村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100209",
+    "pinyin" : "cjccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇城郊村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "东风村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100210",
+    "pinyin" : "dfccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇东风村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "七曲村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100212",
+    "pinyin" : "qqccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇七曲村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "青龙村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100213",
+    "pinyin" : "qlccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇青龙村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "民胜村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100215",
+    "pinyin" : "msccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇民胜村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "三星村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100216",
+    "pinyin" : "sxccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇三星村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "三清村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100218",
+    "pinyin" : "sqccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇三清村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "莲花村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100220",
+    "pinyin" : "lhccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇莲花村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "铜鼓村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100222",
+    "pinyin" : "tgccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇铜鼓村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "高桥村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100225",
+    "pinyin" : "gqccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇高桥村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "云峰村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100226",
+    "pinyin" : "yfccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇云峰村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "飞龙村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100227",
+    "pinyin" : "flccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇飞龙村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金燕村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100228",
+    "pinyin" : "jyccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇金燕村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "御马村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100230",
+    "pinyin" : "ymccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇御马村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "柏林村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100231",
+    "pinyin" : "blccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇柏林村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "油泉村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100232",
+    "pinyin" : "yqccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇油泉村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "新桥村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100233",
+    "pinyin" : "xqccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇新桥村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "红排村村民委员会",
+    "pCode" : "510725100",
+    "level" : "COMMUNITY",
+    "code" : "510725100235",
+    "pinyin" : "hpccmwyh",
+    "detail" : "四川省绵阳市梓潼县文昌镇红排村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "长卿镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725101",
+    "pinyin" : "zqz",
+    "detail" : "四川省绵阳市梓潼县长卿镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "南桥社区居民委员会",
+    "pCode" : "510725101",
+    "level" : "COMMUNITY",
+    "code" : "510725101001",
+    "pinyin" : "nqsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县长卿镇南桥社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "石河村村民委员会",
+    "pCode" : "510725101",
+    "level" : "COMMUNITY",
+    "code" : "510725101203",
+    "pinyin" : "shccmwyh",
+    "detail" : "四川省绵阳市梓潼县长卿镇石河村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "中心村村民委员会",
+    "pCode" : "510725101",
+    "level" : "COMMUNITY",
+    "code" : "510725101205",
+    "pinyin" : "zxccmwyh",
+    "detail" : "四川省绵阳市梓潼县长卿镇中心村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "长卿村村民委员会",
+    "pCode" : "510725101",
+    "level" : "COMMUNITY",
+    "code" : "510725101207",
+    "pinyin" : "zqccmwyh",
+    "detail" : "四川省绵阳市梓潼县长卿镇长卿村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "皇观村村民委员会",
+    "pCode" : "510725101",
+    "level" : "COMMUNITY",
+    "code" : "510725101208",
+    "pinyin" : "hgccmwyh",
+    "detail" : "四川省绵阳市梓潼县长卿镇皇观村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "柴坝村村民委员会",
+    "pCode" : "510725101",
+    "level" : "COMMUNITY",
+    "code" : "510725101209",
+    "pinyin" : "cbccmwyh",
+    "detail" : "四川省绵阳市梓潼县长卿镇柴坝村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "油坪村村民委员会",
+    "pCode" : "510725101",
+    "level" : "COMMUNITY",
+    "code" : "510725101210",
+    "pinyin" : "ypccmwyh",
+    "detail" : "四川省绵阳市梓潼县长卿镇油坪村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "三泉村村民委员会",
+    "pCode" : "510725101",
+    "level" : "COMMUNITY",
+    "code" : "510725101211",
+    "pinyin" : "sqccmwyh",
+    "detail" : "四川省绵阳市梓潼县长卿镇三泉村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "天星村村民委员会",
+    "pCode" : "510725101",
+    "level" : "COMMUNITY",
+    "code" : "510725101212",
+    "pinyin" : "txccmwyh",
+    "detail" : "四川省绵阳市梓潼县长卿镇天星村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "兴隆村村民委员会",
+    "pCode" : "510725101",
+    "level" : "COMMUNITY",
+    "code" : "510725101213",
+    "pinyin" : "xlccmwyh",
+    "detail" : "四川省绵阳市梓潼县长卿镇兴隆村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "许州镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725102",
+    "pinyin" : "xzz",
+    "detail" : "四川省绵阳市梓潼县许州镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "红军桥社区居民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102002",
+    "pinyin" : "hjqsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇红军桥社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "仙峰社区居民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102003",
+    "pinyin" : "xfsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇仙峰社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "百顷村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102201",
+    "pinyin" : "bqccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇百顷村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "燎原村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102204",
+    "pinyin" : "lyccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇燎原村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "平原村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102206",
+    "pinyin" : "pyccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇平原村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "联盟村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102208",
+    "pinyin" : "lmccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇联盟村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "中坝村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102215",
+    "pinyin" : "zbccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇中坝村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "牛蹄山村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102218",
+    "pinyin" : "ntsccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇牛蹄山村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "天宝村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102220",
+    "pinyin" : "tbccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇天宝村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "豢龙村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102222",
+    "pinyin" : "hlccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇豢龙村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "铜铃村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102223",
+    "pinyin" : "tlccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇铜铃村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "枣垭村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102224",
+    "pinyin" : "zyccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇枣垭村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "永桂村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102225",
+    "pinyin" : "ygccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇永桂村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "甘滋村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102226",
+    "pinyin" : "gzccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇甘滋村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "雨门村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102227",
+    "pinyin" : "ymccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇雨门村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "双龙村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102228",
+    "pinyin" : "slccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇双龙村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "柏垭村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102229",
+    "pinyin" : "byccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇柏垭村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "小垭村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102230",
+    "pinyin" : "xyccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇小垭村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "山泉村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102231",
+    "pinyin" : "sqccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇山泉村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金天村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102232",
+    "pinyin" : "jtccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇金天村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "军民村村民委员会",
+    "pCode" : "510725102",
+    "level" : "COMMUNITY",
+    "code" : "510725102233",
+    "pinyin" : "jmccmwyh",
+    "detail" : "四川省绵阳市梓潼县许州镇军民村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "黎雅镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725103",
+    "pinyin" : "lyz",
+    "detail" : "四川省绵阳市梓潼县黎雅镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "文昌宫社区居民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103001",
+    "pinyin" : "wcgsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇文昌宫社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "藏鹅社区居民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103002",
+    "pinyin" : "zesqjmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇藏鹅社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "竹林村村民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103201",
+    "pinyin" : "zlccmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇竹林村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "兰花村村民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103203",
+    "pinyin" : "lhccmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇兰花村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "西安村村民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103208",
+    "pinyin" : "xaccmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇西安村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "清平村村民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103211",
+    "pinyin" : "qpccmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇清平村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "马安村村民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103213",
+    "pinyin" : "maccmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇马安村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "双高村村民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103214",
+    "pinyin" : "sgccmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇双高村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "胜天村村民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103215",
+    "pinyin" : "stccmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇胜天村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "大元包村村民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103216",
+    "pinyin" : "dybccmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇大元包村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "仙鹅村村民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103217",
+    "pinyin" : "xeccmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇仙鹅村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "洄水村村民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103218",
+    "pinyin" : "hsccmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇洄水村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "九龙村村民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103219",
+    "pinyin" : "jlccmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇九龙村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "从文村村民委员会",
+    "pCode" : "510725103",
+    "level" : "COMMUNITY",
+    "code" : "510725103221",
+    "pinyin" : "cwccmwyh",
+    "detail" : "四川省绵阳市梓潼县黎雅镇从文村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "卧龙镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725105",
+    "pinyin" : "wlz",
+    "detail" : "四川省绵阳市梓潼县卧龙镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "兴龙社区居民委员会",
+    "pCode" : "510725105",
+    "level" : "COMMUNITY",
+    "code" : "510725105001",
+    "pinyin" : "xlsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县卧龙镇兴龙社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金谷村村民委员会",
+    "pCode" : "510725105",
+    "level" : "COMMUNITY",
+    "code" : "510725105201",
+    "pinyin" : "jgccmwyh",
+    "detail" : "四川省绵阳市梓潼县卧龙镇金谷村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "桂花村村民委员会",
+    "pCode" : "510725105",
+    "level" : "COMMUNITY",
+    "code" : "510725105206",
+    "pinyin" : "ghccmwyh",
+    "detail" : "四川省绵阳市梓潼县卧龙镇桂花村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "九柏村村民委员会",
+    "pCode" : "510725105",
+    "level" : "COMMUNITY",
+    "code" : "510725105209",
+    "pinyin" : "jbccmwyh",
+    "detail" : "四川省绵阳市梓潼县卧龙镇九柏村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "五一村村民委员会",
+    "pCode" : "510725105",
+    "level" : "COMMUNITY",
+    "code" : "510725105210",
+    "pinyin" : "wyccmwyh",
+    "detail" : "四川省绵阳市梓潼县卧龙镇五一村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "拦河村村民委员会",
+    "pCode" : "510725105",
+    "level" : "COMMUNITY",
+    "code" : "510725105211",
+    "pinyin" : "lhccmwyh",
+    "detail" : "四川省绵阳市梓潼县卧龙镇拦河村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "观义镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725106",
+    "pinyin" : "gyz",
+    "detail" : "四川省绵阳市梓潼县观义镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "红旗社区居民委员会",
+    "pCode" : "510725106",
+    "level" : "COMMUNITY",
+    "code" : "510725106001",
+    "pinyin" : "hqsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县观义镇红旗社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "池塘村村民委员会",
+    "pCode" : "510725106",
+    "level" : "COMMUNITY",
+    "code" : "510725106201",
+    "pinyin" : "ctccmwyh",
+    "detail" : "四川省绵阳市梓潼县观义镇池塘村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "瓦子村村民委员会",
+    "pCode" : "510725106",
+    "level" : "COMMUNITY",
+    "code" : "510725106204",
+    "pinyin" : "wzccmwyh",
+    "detail" : "四川省绵阳市梓潼县观义镇瓦子村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "回銮村村民委员会",
+    "pCode" : "510725106",
+    "level" : "COMMUNITY",
+    "code" : "510725106207",
+    "pinyin" : "hlccmwyh",
+    "detail" : "四川省绵阳市梓潼县观义镇回銮村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "红柳村村民委员会",
+    "pCode" : "510725106",
+    "level" : "COMMUNITY",
+    "code" : "510725106209",
+    "pinyin" : "hlccmwyh",
+    "detail" : "四川省绵阳市梓潼县观义镇红柳村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金银村村民委员会",
+    "pCode" : "510725106",
+    "level" : "COMMUNITY",
+    "code" : "510725106211",
+    "pinyin" : "jyccmwyh",
+    "detail" : "四川省绵阳市梓潼县观义镇金银村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "河口村村民委员会",
+    "pCode" : "510725106",
+    "level" : "COMMUNITY",
+    "code" : "510725106212",
+    "pinyin" : "hkccmwyh",
+    "detail" : "四川省绵阳市梓潼县观义镇河口村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "银针村村民委员会",
+    "pCode" : "510725106",
+    "level" : "COMMUNITY",
+    "code" : "510725106213",
+    "pinyin" : "yzccmwyh",
+    "detail" : "四川省绵阳市梓潼县观义镇银针村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "共和村村民委员会",
+    "pCode" : "510725106",
+    "level" : "COMMUNITY",
+    "code" : "510725106214",
+    "pinyin" : "ghccmwyh",
+    "detail" : "四川省绵阳市梓潼县观义镇共和村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "玛瑙镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725107",
+    "pinyin" : "mnz",
+    "detail" : "四川省绵阳市梓潼县玛瑙镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "兴隆场社区居民委员会",
+    "pCode" : "510725107",
+    "level" : "COMMUNITY",
+    "code" : "510725107001",
+    "pinyin" : "xlcsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县玛瑙镇兴隆场社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "红庙村村民委员会",
+    "pCode" : "510725107",
+    "level" : "COMMUNITY",
+    "code" : "510725107202",
+    "pinyin" : "hmccmwyh",
+    "detail" : "四川省绵阳市梓潼县玛瑙镇红庙村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "桐麻村村民委员会",
+    "pCode" : "510725107",
+    "level" : "COMMUNITY",
+    "code" : "510725107203",
+    "pinyin" : "tmccmwyh",
+    "detail" : "四川省绵阳市梓潼县玛瑙镇桐麻村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "瓦苍村村民委员会",
+    "pCode" : "510725107",
+    "level" : "COMMUNITY",
+    "code" : "510725107209",
+    "pinyin" : "wcccmwyh",
+    "detail" : "四川省绵阳市梓潼县玛瑙镇瓦苍村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "玛瑙村村民委员会",
+    "pCode" : "510725107",
+    "level" : "COMMUNITY",
+    "code" : "510725107210",
+    "pinyin" : "mnccmwyh",
+    "detail" : "四川省绵阳市梓潼县玛瑙镇玛瑙村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "贞元村村民委员会",
+    "pCode" : "510725107",
+    "level" : "COMMUNITY",
+    "code" : "510725107212",
+    "pinyin" : "zyccmwyh",
+    "detail" : "四川省绵阳市梓潼县玛瑙镇贞元村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "交泰村村民委员会",
+    "pCode" : "510725107",
+    "level" : "COMMUNITY",
+    "code" : "510725107213",
+    "pinyin" : "jtccmwyh",
+    "detail" : "四川省绵阳市梓潼县玛瑙镇交泰村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "黄花村村民委员会",
+    "pCode" : "510725107",
+    "level" : "COMMUNITY",
+    "code" : "510725107214",
+    "pinyin" : "hhccmwyh",
+    "detail" : "四川省绵阳市梓潼县玛瑙镇黄花村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "龙台村村民委员会",
+    "pCode" : "510725107",
+    "level" : "COMMUNITY",
+    "code" : "510725107215",
+    "pinyin" : "ltccmwyh",
+    "detail" : "四川省绵阳市梓潼县玛瑙镇龙台村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "后山村村民委员会",
+    "pCode" : "510725107",
+    "level" : "COMMUNITY",
+    "code" : "510725107217",
+    "pinyin" : "hsccmwyh",
+    "detail" : "四川省绵阳市梓潼县玛瑙镇后山村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "罗桥村村民委员会",
+    "pCode" : "510725107",
+    "level" : "COMMUNITY",
+    "code" : "510725107218",
+    "pinyin" : "lqccmwyh",
+    "detail" : "四川省绵阳市梓潼县玛瑙镇罗桥村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "石牛镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725108",
+    "pinyin" : "snz",
+    "detail" : "四川省绵阳市梓潼县石牛镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金牛街社区居民委员会",
+    "pCode" : "510725108",
+    "level" : "COMMUNITY",
+    "code" : "510725108001",
+    "pinyin" : "jnjsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县石牛镇金牛街社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "雁门村村民委员会",
+    "pCode" : "510725108",
+    "level" : "COMMUNITY",
+    "code" : "510725108205",
+    "pinyin" : "ymccmwyh",
+    "detail" : "四川省绵阳市梓潼县石牛镇雁门村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "柳林村村民委员会",
+    "pCode" : "510725108",
+    "level" : "COMMUNITY",
+    "code" : "510725108207",
+    "pinyin" : "llccmwyh",
+    "detail" : "四川省绵阳市梓潼县石牛镇柳林村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "双塘村村民委员会",
+    "pCode" : "510725108",
+    "level" : "COMMUNITY",
+    "code" : "510725108210",
+    "pinyin" : "stccmwyh",
+    "detail" : "四川省绵阳市梓潼县石牛镇双塘村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "清河村村民委员会",
+    "pCode" : "510725108",
+    "level" : "COMMUNITY",
+    "code" : "510725108214",
+    "pinyin" : "qhccmwyh",
+    "detail" : "四川省绵阳市梓潼县石牛镇清河村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "团结村村民委员会",
+    "pCode" : "510725108",
+    "level" : "COMMUNITY",
+    "code" : "510725108215",
+    "pinyin" : "tjccmwyh",
+    "detail" : "四川省绵阳市梓潼县石牛镇团结村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "富强村村民委员会",
+    "pCode" : "510725108",
+    "level" : "COMMUNITY",
+    "code" : "510725108216",
+    "pinyin" : "fqccmwyh",
+    "detail" : "四川省绵阳市梓潼县石牛镇富强村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "友谊村村民委员会",
+    "pCode" : "510725108",
+    "level" : "COMMUNITY",
+    "code" : "510725108218",
+    "pinyin" : "yyccmwyh",
+    "detail" : "四川省绵阳市梓潼县石牛镇友谊村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "龙帽村村民委员会",
+    "pCode" : "510725108",
+    "level" : "COMMUNITY",
+    "code" : "510725108219",
+    "pinyin" : "lmccmwyh",
+    "detail" : "四川省绵阳市梓潼县石牛镇龙帽村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "清华村村民委员会",
+    "pCode" : "510725108",
+    "level" : "COMMUNITY",
+    "code" : "510725108220",
+    "pinyin" : "qhccmwyh",
+    "detail" : "四川省绵阳市梓潼县石牛镇清华村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "双峰村村民委员会",
+    "pCode" : "510725108",
+    "level" : "COMMUNITY",
+    "code" : "510725108221",
+    "pinyin" : "sfccmwyh",
+    "detail" : "四川省绵阳市梓潼县石牛镇双峰村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "自强镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725109",
+    "pinyin" : "zqz",
+    "detail" : "四川省绵阳市梓潼县自强镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "大安社区居民委员会",
+    "pCode" : "510725109",
+    "level" : "COMMUNITY",
+    "code" : "510725109001",
+    "pinyin" : "dasqjmwyh",
+    "detail" : "四川省绵阳市梓潼县自强镇大安社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "三合村村民委员会",
+    "pCode" : "510725109",
+    "level" : "COMMUNITY",
+    "code" : "510725109201",
+    "pinyin" : "shccmwyh",
+    "detail" : "四川省绵阳市梓潼县自强镇三合村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "长征村村民委员会",
+    "pCode" : "510725109",
+    "level" : "COMMUNITY",
+    "code" : "510725109203",
+    "pinyin" : "zzccmwyh",
+    "detail" : "四川省绵阳市梓潼县自强镇长征村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "黎明村村民委员会",
+    "pCode" : "510725109",
+    "level" : "COMMUNITY",
+    "code" : "510725109205",
+    "pinyin" : "lmccmwyh",
+    "detail" : "四川省绵阳市梓潼县自强镇黎明村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "流泉村村民委员会",
+    "pCode" : "510725109",
+    "level" : "COMMUNITY",
+    "code" : "510725109206",
+    "pinyin" : "lqccmwyh",
+    "detail" : "四川省绵阳市梓潼县自强镇流泉村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金光村村民委员会",
+    "pCode" : "510725109",
+    "level" : "COMMUNITY",
+    "code" : "510725109207",
+    "pinyin" : "jgccmwyh",
+    "detail" : "四川省绵阳市梓潼县自强镇金光村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "思公村村民委员会",
+    "pCode" : "510725109",
+    "level" : "COMMUNITY",
+    "code" : "510725109209",
+    "pinyin" : "sgccmwyh",
+    "detail" : "四川省绵阳市梓潼县自强镇思公村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "马迎村村民委员会",
+    "pCode" : "510725109",
+    "level" : "COMMUNITY",
+    "code" : "510725109210",
+    "pinyin" : "myccmwyh",
+    "detail" : "四川省绵阳市梓潼县自强镇马迎村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "二洞村村民委员会",
+    "pCode" : "510725109",
+    "level" : "COMMUNITY",
+    "code" : "510725109211",
+    "pinyin" : "edccmwyh",
+    "detail" : "四川省绵阳市梓潼县自强镇二洞村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "建国村村民委员会",
+    "pCode" : "510725109",
+    "level" : "COMMUNITY",
+    "code" : "510725109213",
+    "pinyin" : "jgccmwyh",
+    "detail" : "四川省绵阳市梓潼县自强镇建国村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "仁和镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725110",
+    "pinyin" : "rhz",
+    "detail" : "四川省绵阳市梓潼县仁和镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金宝场社区居民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110001",
+    "pinyin" : "jbcsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇金宝场社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "天乐村村民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110206",
+    "pinyin" : "tlccmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇天乐村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "观龙村村民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110209",
+    "pinyin" : "glccmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇观龙村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "檬桠村村民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110211",
+    "pinyin" : "myccmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇檬桠村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "新华村村民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110213",
+    "pinyin" : "xhccmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇新华村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "松林村村民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110214",
+    "pinyin" : "slccmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇松林村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "天台村村民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110215",
+    "pinyin" : "ttccmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇天台村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "曙光村村民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110216",
+    "pinyin" : "sgccmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇曙光村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "秋树村村民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110217",
+    "pinyin" : "qsccmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇秋树村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "里仁村村民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110218",
+    "pinyin" : "lrccmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇里仁村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "两河村村民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110219",
+    "pinyin" : "lhccmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇两河村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "大新村村民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110220",
+    "pinyin" : "dxccmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇大新村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "青元村村民委员会",
+    "pCode" : "510725110",
+    "level" : "COMMUNITY",
+    "code" : "510725110221",
+    "pinyin" : "qyccmwyh",
+    "detail" : "四川省绵阳市梓潼县仁和镇青元村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "双板镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725111",
+    "pinyin" : "sbz",
+    "detail" : "四川省绵阳市梓潼县双板镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "石桥社区居民委员会",
+    "pCode" : "510725111",
+    "level" : "COMMUNITY",
+    "code" : "510725111001",
+    "pinyin" : "sqsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县双板镇石桥社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "德胜村村民委员会",
+    "pCode" : "510725111",
+    "level" : "COMMUNITY",
+    "code" : "510725111201",
+    "pinyin" : "dsccmwyh",
+    "detail" : "四川省绵阳市梓潼县双板镇德胜村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "桥龙村村民委员会",
+    "pCode" : "510725111",
+    "level" : "COMMUNITY",
+    "code" : "510725111202",
+    "pinyin" : "qlccmwyh",
+    "detail" : "四川省绵阳市梓潼县双板镇桥龙村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "菱角村村民委员会",
+    "pCode" : "510725111",
+    "level" : "COMMUNITY",
+    "code" : "510725111205",
+    "pinyin" : "ljccmwyh",
+    "detail" : "四川省绵阳市梓潼县双板镇菱角村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "南垭村村民委员会",
+    "pCode" : "510725111",
+    "level" : "COMMUNITY",
+    "code" : "510725111208",
+    "pinyin" : "nyccmwyh",
+    "detail" : "四川省绵阳市梓潼县双板镇南垭村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "全胜村村民委员会",
+    "pCode" : "510725111",
+    "level" : "COMMUNITY",
+    "code" : "510725111209",
+    "pinyin" : "qsccmwyh",
+    "detail" : "四川省绵阳市梓潼县双板镇全胜村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "新寨村村民委员会",
+    "pCode" : "510725111",
+    "level" : "COMMUNITY",
+    "code" : "510725111210",
+    "pinyin" : "xzccmwyh",
+    "detail" : "四川省绵阳市梓潼县双板镇新寨村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金龙镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725112",
+    "pinyin" : "jlz",
+    "detail" : "四川省绵阳市梓潼县金龙镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金凤社区居民委员会",
+    "pCode" : "510725112",
+    "level" : "COMMUNITY",
+    "code" : "510725112001",
+    "pinyin" : "jfsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县金龙镇金凤社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金龙村村民委员会",
+    "pCode" : "510725112",
+    "level" : "COMMUNITY",
+    "code" : "510725112201",
+    "pinyin" : "jlccmwyh",
+    "detail" : "四川省绵阳市梓潼县金龙镇金龙村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金华村村民委员会",
+    "pCode" : "510725112",
+    "level" : "COMMUNITY",
+    "code" : "510725112206",
+    "pinyin" : "jhccmwyh",
+    "detail" : "四川省绵阳市梓潼县金龙镇金华村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "青光村村民委员会",
+    "pCode" : "510725112",
+    "level" : "COMMUNITY",
+    "code" : "510725112208",
+    "pinyin" : "qgccmwyh",
+    "detail" : "四川省绵阳市梓潼县金龙镇青光村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "龙凤村村民委员会",
+    "pCode" : "510725112",
+    "level" : "COMMUNITY",
+    "code" : "510725112210",
+    "pinyin" : "lfccmwyh",
+    "detail" : "四川省绵阳市梓潼县金龙镇龙凤村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金莲村村民委员会",
+    "pCode" : "510725112",
+    "level" : "COMMUNITY",
+    "code" : "510725112211",
+    "pinyin" : "jlccmwyh",
+    "detail" : "四川省绵阳市梓潼县金龙镇金莲村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "栖凤村村民委员会",
+    "pCode" : "510725112",
+    "level" : "COMMUNITY",
+    "code" : "510725112214",
+    "pinyin" : "qfccmwyh",
+    "detail" : "四川省绵阳市梓潼县金龙镇栖凤村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "龙泉村村民委员会",
+    "pCode" : "510725112",
+    "level" : "COMMUNITY",
+    "code" : "510725112215",
+    "pinyin" : "lqccmwyh",
+    "detail" : "四川省绵阳市梓潼县金龙镇龙泉村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "文兴镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725113",
+    "pinyin" : "wxz",
+    "detail" : "四川省绵阳市梓潼县文兴镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "文井社区居民委员会",
+    "pCode" : "510725113",
+    "level" : "COMMUNITY",
+    "code" : "510725113001",
+    "pinyin" : "wjsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县文兴镇文井社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "火花村村民委员会",
+    "pCode" : "510725113",
+    "level" : "COMMUNITY",
+    "code" : "510725113202",
+    "pinyin" : "hhccmwyh",
+    "detail" : "四川省绵阳市梓潼县文兴镇火花村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "灯塔村村民委员会",
+    "pCode" : "510725113",
+    "level" : "COMMUNITY",
+    "code" : "510725113204",
+    "pinyin" : "dtccmwyh",
+    "detail" : "四川省绵阳市梓潼县文兴镇灯塔村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "双凤村村民委员会",
+    "pCode" : "510725113",
+    "level" : "COMMUNITY",
+    "code" : "510725113206",
+    "pinyin" : "sfccmwyh",
+    "detail" : "四川省绵阳市梓潼县文兴镇双凤村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "照耀村村民委员会",
+    "pCode" : "510725113",
+    "level" : "COMMUNITY",
+    "code" : "510725113207",
+    "pinyin" : "zyccmwyh",
+    "detail" : "四川省绵阳市梓潼县文兴镇照耀村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "盘龙村村民委员会",
+    "pCode" : "510725113",
+    "level" : "COMMUNITY",
+    "code" : "510725113211",
+    "pinyin" : "plccmwyh",
+    "detail" : "四川省绵阳市梓潼县文兴镇盘龙村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "演武镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725114",
+    "pinyin" : "ywz",
+    "detail" : "四川省绵阳市梓潼县演武镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "群联村村民委员会",
+    "pCode" : "510725114",
+    "level" : "COMMUNITY",
+    "code" : "510725114201",
+    "pinyin" : "qlccmwyh",
+    "detail" : "四川省绵阳市梓潼县演武镇群联村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "东山村村民委员会",
+    "pCode" : "510725114",
+    "level" : "COMMUNITY",
+    "code" : "510725114203",
+    "pinyin" : "dsccmwyh",
+    "detail" : "四川省绵阳市梓潼县演武镇东山村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "红岩村村民委员会",
+    "pCode" : "510725114",
+    "level" : "COMMUNITY",
+    "code" : "510725114205",
+    "pinyin" : "hyccmwyh",
+    "detail" : "四川省绵阳市梓潼县演武镇红岩村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "玉泉村村民委员会",
+    "pCode" : "510725114",
+    "level" : "COMMUNITY",
+    "code" : "510725114208",
+    "pinyin" : "yqccmwyh",
+    "detail" : "四川省绵阳市梓潼县演武镇玉泉村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "小亭村村民委员会",
+    "pCode" : "510725114",
+    "level" : "COMMUNITY",
+    "code" : "510725114209",
+    "pinyin" : "xtccmwyh",
+    "detail" : "四川省绵阳市梓潼县演武镇小亭村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "上亭铺村村民委员会",
+    "pCode" : "510725114",
+    "level" : "COMMUNITY",
+    "code" : "510725114212",
+    "pinyin" : "stpccmwyh",
+    "detail" : "四川省绵阳市梓潼县演武镇上亭铺村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "宏仁镇",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725115",
+    "pinyin" : "hrz",
+    "detail" : "四川省绵阳市梓潼县宏仁镇",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "石香台社区居民委员会",
+    "pCode" : "510725115",
+    "level" : "COMMUNITY",
+    "code" : "510725115001",
+    "pinyin" : "sxtsqjmwyh",
+    "detail" : "四川省绵阳市梓潼县宏仁镇石香台社区居民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "五星村村民委员会",
+    "pCode" : "510725115",
+    "level" : "COMMUNITY",
+    "code" : "510725115201",
+    "pinyin" : "wxccmwyh",
+    "detail" : "四川省绵阳市梓潼县宏仁镇五星村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "红星村村民委员会",
+    "pCode" : "510725115",
+    "level" : "COMMUNITY",
+    "code" : "510725115202",
+    "pinyin" : "hxccmwyh",
+    "detail" : "四川省绵阳市梓潼县宏仁镇红星村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "石台村村民委员会",
+    "pCode" : "510725115",
+    "level" : "COMMUNITY",
+    "code" : "510725115203",
+    "pinyin" : "stccmwyh",
+    "detail" : "四川省绵阳市梓潼县宏仁镇石台村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "长春村村民委员会",
+    "pCode" : "510725115",
+    "level" : "COMMUNITY",
+    "code" : "510725115204",
+    "pinyin" : "zcccmwyh",
+    "detail" : "四川省绵阳市梓潼县宏仁镇长春村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "白云村村民委员会",
+    "pCode" : "510725115",
+    "level" : "COMMUNITY",
+    "code" : "510725115205",
+    "pinyin" : "byccmwyh",
+    "detail" : "四川省绵阳市梓潼县宏仁镇白云村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "石鸡村村民委员会",
+    "pCode" : "510725115",
+    "level" : "COMMUNITY",
+    "code" : "510725115206",
+    "pinyin" : "sjccmwyh",
+    "detail" : "四川省绵阳市梓潼县宏仁镇石鸡村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "金宝村村民委员会",
+    "pCode" : "510725115",
+    "level" : "COMMUNITY",
+    "code" : "510725115207",
+    "pinyin" : "jbccmwyh",
+    "detail" : "四川省绵阳市梓潼县宏仁镇金宝村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "长安村村民委员会",
+    "pCode" : "510725115",
+    "level" : "COMMUNITY",
+    "code" : "510725115208",
+    "pinyin" : "zaccmwyh",
+    "detail" : "四川省绵阳市梓潼县宏仁镇长安村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "弘德村村民委员会",
+    "pCode" : "510725115",
+    "level" : "COMMUNITY",
+    "code" : "510725115209",
+    "pinyin" : "hdccmwyh",
+    "detail" : "四川省绵阳市梓潼县宏仁镇弘德村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "宝石乡",
+    "pCode" : "510725",
+    "level" : "STREET",
+    "code" : "510725217",
+    "pinyin" : "bsx",
+    "detail" : "四川省绵阳市梓潼县宝石乡",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "场坝村村民委员会",
+    "pCode" : "510725217",
+    "level" : "COMMUNITY",
+    "code" : "510725217201",
+    "pinyin" : "cbccmwyh",
+    "detail" : "四川省绵阳市梓潼县宝石乡场坝村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "庆祝村村民委员会",
+    "pCode" : "510725217",
+    "level" : "COMMUNITY",
+    "code" : "510725217202",
+    "pinyin" : "qzccmwyh",
+    "detail" : "四川省绵阳市梓潼县宝石乡庆祝村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "天生村村民委员会",
+    "pCode" : "510725217",
+    "level" : "COMMUNITY",
+    "code" : "510725217203",
+    "pinyin" : "tsccmwyh",
+    "detail" : "四川省绵阳市梓潼县宝石乡天生村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "红卫村村民委员会",
+    "pCode" : "510725217",
+    "level" : "COMMUNITY",
+    "code" : "510725217207",
+    "pinyin" : "hwccmwyh",
+    "detail" : "四川省绵阳市梓潼县宝石乡红卫村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "长梁村村民委员会",
+    "pCode" : "510725217",
+    "level" : "COMMUNITY",
+    "code" : "510725217208",
+    "pinyin" : "zlccmwyh",
+    "detail" : "四川省绵阳市梓潼县宝石乡长梁村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "白马村村民委员会",
+    "pCode" : "510725217",
+    "level" : "COMMUNITY",
+    "code" : "510725217210",
+    "pinyin" : "bmccmwyh",
+    "detail" : "四川省绵阳市梓潼县宝石乡白马村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "斑竹村村民委员会",
+    "pCode" : "510725217",
+    "level" : "COMMUNITY",
+    "code" : "510725217211",
+    "pinyin" : "bzccmwyh",
+    "detail" : "四川省绵阳市梓潼县宝石乡斑竹村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "红豆村村民委员会",
+    "pCode" : "510725217",
+    "level" : "COMMUNITY",
+    "code" : "510725217212",
+    "pinyin" : "hdccmwyh",
+    "detail" : "四川省绵阳市梓潼县宝石乡红豆村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "同心村村民委员会",
+    "pCode" : "510725217",
+    "level" : "COMMUNITY",
+    "code" : "510725217213",
+    "pinyin" : "txccmwyh",
+    "detail" : "四川省绵阳市梓潼县宝石乡同心村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "阁楼村村民委员会",
+    "pCode" : "510725217",
+    "level" : "COMMUNITY",
+    "code" : "510725217214",
+    "pinyin" : "glccmwyh",
+    "detail" : "四川省绵阳市梓潼县宝石乡阁楼村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "土塔村村民委员会",
+    "pCode" : "510725217",
+    "level" : "COMMUNITY",
+    "code" : "510725217215",
+    "pinyin" : "ttccmwyh",
+    "detail" : "四川省绵阳市梓潼县宝石乡土塔村村民委员会",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "经开区",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "code" : "510751",
+    "pinyin" : "jkq",
+    "detail" : "四川省绵阳市经开区",
+    "_class" : "com.gmrfid.service.user.entity.Area"
+  },
+  {
+    "name" : "塘汛街道",
+    "code" : "510751001",
+    "pCode" : "510751",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "txjd",
+    "detail" : "四川省绵阳市经开区塘汛街道"
+  },
+  {
+    "name" : "文跃社区",
+    "code" : "510751001001",
+    "pCode" : "510751001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "wysq",
+    "detail" : "四川省绵阳市经开区塘汛街道文跃社区"
+  },
+  {
+    "name" : "友谊社区",
+    "code" : "510751001002",
+    "pCode" : "510751001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "yysq",
+    "detail" : "四川省绵阳市经开区塘汛街道友谊社区"
+  },
+  {
+    "name" : "三元社区",
+    "code" : "510751001003",
+    "pCode" : "510751001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "sysq",
+    "detail" : "四川省绵阳市经开区塘汛街道三元社区"
+  },
+  {
+    "name" : "板桥社区",
+    "code" : "510751001004",
+    "pCode" : "510751001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "bqsq",
+    "detail" : "四川省绵阳市经开区塘汛街道板桥社区"
+  },
+  {
+    "name" : "三江社区",
+    "code" : "510751001005",
+    "pCode" : "510751001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "sjsq",
+    "detail" : "四川省绵阳市经开区塘汛街道三江社区"
+  },
+  {
+    "name" : "滨湖社区",
+    "code" : "510751001006",
+    "pCode" : "510751001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "bhsq",
+    "detail" : "四川省绵阳市经开区塘汛街道滨湖社区"
+  },
+  {
+    "name" : "桃园社区",
+    "code" : "510751001007",
+    "pCode" : "510751001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "tysq",
+    "detail" : "四川省绵阳市经开区塘汛街道桃园社区"
+  },
+  {
+    "name" : "涪沿社区",
+    "code" : "510751001008",
+    "pCode" : "510751001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "fysq",
+    "detail" : "四川省绵阳市经开区塘汛街道涪沿社区"
+  },
+  {
+    "class" : "com.gmrfid.service.user.entity.Area",
+    "code" : "510751002",
+    "detail" : "四川省绵阳市经开区松垭镇",
+    "level" : "STREET",
+    "name" : "松垭镇",
+    "pCode" : "510751",
+    "pinyin" : "syz"
+  },
+  {
+    "name" : "高新区",
+    "code" : "510752",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "gxq",
+    "detail" : "四川省绵阳市高新区"
+  },
+  {
+    "name" : "永兴镇",
+    "code" : "510752001",
+    "pCode" : "510752",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "yxz",
+    "detail" : "四川省绵阳市高新区永兴镇"
+  },
+  {
+    "name" : "龙家碾社区",
+    "code" : "510752001001",
+    "pCode" : "510752001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ljysq",
+    "detail" : "四川省绵阳市高新区永兴镇龙家碾社区"
+  },
+  {
+    "name" : "金祥寺社区",
+    "code" : "510752001002",
+    "pCode" : "510752001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "jxssq",
+    "detail" : "四川省绵阳市高新区永兴镇金祥寺社区"
+  },
+  {
+    "name" : "华裕路社区",
+    "code" : "510752001003",
+    "pCode" : "510752001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hylsq",
+    "detail" : "四川省绵阳市高新区永兴镇华裕路社区"
+  },
+  {
+    "name" : "飞云社区",
+    "code" : "510752001004",
+    "pCode" : "510752001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "fysq",
+    "detail" : "四川省绵阳市高新区永兴镇飞云社区"
+  },
+  {
+    "name" : "永发社区",
+    "code" : "510752001005",
+    "pCode" : "510752001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "yfsq",
+    "detail" : "四川省绵阳市高新区永兴镇永发社区"
+  },
+  {
+    "name" : "普明街道",
+    "code" : "510752002",
+    "pCode" : "510752",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "pmjd",
+    "detail" : "四川省绵阳市高新区普明街道"
+  },
+  {
+    "name" : "双碑社区",
+    "code" : "510752002001",
+    "pCode" : "510752002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "sbsq",
+    "detail" : "四川省绵阳市高新区普明街道双碑社区"
+  },
+  {
+    "name" : "普明北路东段社区",
+    "code" : "510752002002",
+    "pCode" : "510752002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "pmblddsq",
+    "detail" : "四川省绵阳市高新区普明街道普明北路东段社区"
+  },
+  {
+    "name" : "火炬东街社区",
+    "code" : "510752002003",
+    "pCode" : "510752002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hjdjsq",
+    "detail" : "四川省绵阳市高新区普明街道火炬东街社区"
+  },
+  {
+    "name" : "普明寺社区",
+    "code" : "510752002004",
+    "pCode" : "510752002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "pmssq",
+    "detail" : "四川省绵阳市高新区普明街道普明寺社区"
+  },
+  {
+    "name" : "虹苑路社区",
+    "code" : "510752002005",
+    "pCode" : "510752002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hwlsq",
+    "detail" : "四川省绵阳市高新区普明街道虹苑路社区"
+  },
+  {
+    "name" : "黄家祠社区",
+    "code" : "510752002006",
+    "pCode" : "510752002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hjcsq",
+    "detail" : "四川省绵阳市高新区普明街道黄家祠社区"
+  },
+  {
+    "name" : "凝祥寺社区",
+    "code" : "510752002007",
+    "pCode" : "510752002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "nxssq",
+    "detail" : "四川省绵阳市高新区普明街道凝祥寺社区"
+  },
+  {
+    "name" : "普明北路西段社区",
+    "code" : "510752002008",
+    "pCode" : "510752002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "pmblxdsq",
+    "detail" : "四川省绵阳市高新区普明街道普明北路西段社区"
+  },
+  {
+    "name" : "石桥铺社区",
+    "code" : "510752002009",
+    "pCode" : "510752002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "sqpsq",
+    "detail" : "四川省绵阳市高新区普明街道石桥铺社区"
+  },
+  {
+    "name" : "古泉社区",
+    "code" : "510752002010",
+    "pCode" : "510752002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "gqsq",
+    "detail" : "四川省绵阳市高新区普明街道古泉社区"
+  },
+  {
+    "name" : "菩提寺社区",
+    "code" : "510752002011",
+    "pCode" : "510752002",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ptssq",
+    "detail" : "四川省绵阳市高新区普明街道菩提寺社区"
+  },
+  {
+    "name" : "科技城新区",
+    "code" : "510754",
+    "pCode" : "5107",
+    "level" : "DISTRICT",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "kjcxq",
+    "detail" : "四川省绵阳市科技城新区"
+  },
+  {
+    "name" : "创业园街道",
+    "code" : "510754001",
+    "pCode" : "510754",
+    "level" : "STREET",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "cyyjd",
+    "detail" : "四川省绵阳市科技城新区创业园街道"
+  },
+  {
+    "name" : "华奥社区",
+    "code" : "510754001001",
+    "pCode" : "510754001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "hasq",
+    "detail" : "四川省绵阳市科技城新区创业园街道华奥社区"
+  },
+  {
+    "name" : "西园社区",
+    "code" : "510754001002",
+    "pCode" : "510754001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xysq",
+    "detail" : "四川省绵阳市科技城新区创业园街道西园社区"
+  },
+  {
+    "name" : "元通社区",
+    "code" : "510754001003",
+    "pCode" : "510754001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ytsq",
+    "detail" : "四川省绵阳市科技城新区创业园街道元通社区"
+  },
+  {
+    "name" : "八角社区",
+    "code" : "510754001004",
+    "pCode" : "510754001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "bjsq",
+    "detail" : "四川省绵阳市科技城新区创业园街道八角社区"
+  },
+  {
+    "name" : "兴隆社区",
+    "code" : "510754001005",
+    "pCode" : "510754001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "xlsq",
+    "detail" : "四川省绵阳市科技城新区创业园街道兴隆社区"
+  },
+  {
+    "name" : "上马社区",
+    "code" : "510754001006",
+    "pCode" : "510754001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "smsq",
+    "detail" : "四川省绵阳市科技城新区创业园街道上马社区"
+  },
+  {
+    "name" : "阳光社区",
+    "code" : "510754001007",
+    "pCode" : "510754001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "ygsq",
+    "detail" : "四川省绵阳市科技城新区创业园街道阳光社区"
+  },
+  {
+    "name" : "科虹社区",
+    "code" : "510754001008",
+    "pCode" : "510754001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "khsq",
+    "detail" : "四川省绵阳市科技城新区创业园街道科虹社区"
+  },
+  {
+    "name" : "科园社区",
+    "code" : "510754001009",
+    "pCode" : "510754001",
+    "level" : "COMMUNITY",
+    "_class" : "com.gmrfid.service.user.entity.Area",
+    "pinyin" : "kysq",
+    "detail" : "四川省绵阳市科技城新区创业园街道科园社区"
+  }
+]
